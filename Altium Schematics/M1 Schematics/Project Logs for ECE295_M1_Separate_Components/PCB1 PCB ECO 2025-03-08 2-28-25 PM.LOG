@@ -1,0 +1,142 @@
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found CAPC3224X140N
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found CAPC3224X140N
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Added Component: Designator=J1(CONN4_PRPC004_SUL)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Sullins"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Headers, Male Pins"; VariantName = "[No Variations]"
+Added Component: Designator=J2(CONN4_PRPC004_SUL)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Sullins"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Headers, Male Pins"; VariantName = "[No Variations]"
+Added Component: Designator=J3(CONN4_PRPC004_SUL)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Sullins"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Headers, Male Pins"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Pin To Net: Unknown Pin: Pin 6C?-1
+Add Pin To Net: Unknown Pin: Pin 6C?-2
+Add Pin To Net: Unknown Pin: Pin C1_2-1
+Add Pin To Net: Unknown Pin: Pin C1_2-2
+Add Pin To Net: Unknown Pin: Pin C1_4-1
+Add Pin To Net: Unknown Pin: Pin C1_4-2
+Add Pin To Net: Unknown Pin: Pin C2_2-1
+Add Pin To Net: Unknown Pin: Pin C2_2-2
+Add Pin To Net: Unknown Pin: Pin C2_4-1
+Add Pin To Net: Unknown Pin: Pin C2_4-2
+Add Pin To Net: Unknown Pin: Pin C3_2-1
+Add Pin To Net: Unknown Pin: Pin C3_2-2
+Add Pin To Net: Unknown Pin: Pin C3_4-1
+Add Pin To Net: Unknown Pin: Pin C3_4-2
+Add Pin To Net: Unknown Pin: Pin C4_4-1
+Add Pin To Net: Unknown Pin: Pin C4_4-2
+Add Pin To Net: Unknown Pin: Pin C7-1
+Add Pin To Net: Unknown Pin: Pin C7-2
+Add Pin To Net: Unknown Pin: Pin C10-1
+Add Pin To Net: Unknown Pin: Pin C10-2
+Add Pin To Net: Unknown Pin: Pin C11-1
+Add Pin To Net: Unknown Pin: Pin C11-2
+Add Pin To Net: Unknown Pin: Pin I1-1
+Add Pin To Net: Unknown Pin: Pin I1-2
+Add Pin To Net: Unknown Pin: Pin I1_3-1
+Add Pin To Net: Unknown Pin: Pin I1_3-2
+Added Pin To Net: NetName=LimitertoBandpass Pin=J1-1
+Added Pin To Net: NetName=LimitertoBandpass Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-3
+Added Pin To Net: NetName=GND Pin=J1-4
+Add Pin To Net: Unknown Pin: Pin LO_SIG-1
+Add Pin To Net: Unknown Pin: Pin LO_SIG-2
+Add Pin To Net: Unknown Pin: Pin LO_signal-1
+Add Pin To Net: Unknown Pin: Pin LO_signal-2
+Add Pin To Net: Unknown Pin: Pin R1_1-1
+Add Pin To Net: Unknown Pin: Pin R1_1-2
+Add Pin To Net: Unknown Pin: Pin R1_3-1
+Add Pin To Net: Unknown Pin: Pin R1_3-2
+Add Pin To Net: Unknown Pin: Pin R1_4-1
+Add Pin To Net: Unknown Pin: Pin R1_4-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R2_3-1
+Add Pin To Net: Unknown Pin: Pin R2_3-2
+Add Pin To Net: Unknown Pin: Pin R2_4-1
+Add Pin To Net: Unknown Pin: Pin R2_4-2
+Add Pin To Net: Unknown Pin: Pin R3-1
+Add Pin To Net: Unknown Pin: Pin R3-2
+Add Pin To Net: Unknown Pin: Pin R3_4-1
+Add Pin To Net: Unknown Pin: Pin R3_4-2
+Add Pin To Net: Unknown Pin: Pin R4-1
+Add Pin To Net: Unknown Pin: Pin R4-2
+Add Pin To Net: Unknown Pin: Pin R4_4-1
+Add Pin To Net: Unknown Pin: Pin R4_4-2
+Add Pin To Net: Unknown Pin: Pin R5-1
+Add Pin To Net: Unknown Pin: Pin R5-2
+Add Pin To Net: Unknown Pin: Pin R5_4-1
+Add Pin To Net: Unknown Pin: Pin R5_4-2
+Add Pin To Net: Unknown Pin: Pin R6-1
+Add Pin To Net: Unknown Pin: Pin R6-2
+Add Pin To Net: Unknown Pin: Pin R6_4-1
+Add Pin To Net: Unknown Pin: Pin R6_4-2
+Add Pin To Net: Unknown Pin: Pin R7-1
+Add Pin To Net: Unknown Pin: Pin R7-2
+Add Pin To Net: Unknown Pin: Pin R7_4-1
+Add Pin To Net: Unknown Pin: Pin R7_4-2
+Add Pin To Net: Unknown Pin: Pin R8-1
+Add Pin To Net: Unknown Pin: Pin R8-2
+Add Pin To Net: Unknown Pin: Pin R9-1
+Add Pin To Net: Unknown Pin: Pin R9-2
+Add Pin To Net: Unknown Pin: Pin R10-1
+Add Pin To Net: Unknown Pin: Pin R10-2
+Add Pin To Net: Unknown Pin: Pin RF_Sig-1
+Add Pin To Net: Unknown Pin: Pin RF_Sig-2
+Add Pin To Net: Unknown Pin: Pin RF_SIG_1-1
+Add Pin To Net: Unknown Pin: Pin RF_SIG_1-2
+Add Pin To Net: Unknown Pin: Pin RF_SIG_2-1
+Add Pin To Net: Unknown Pin: Pin RF_SIG_2-2
+Add Pin To Net: Unknown Pin: Pin RF_SIG_3-1
+Add Pin To Net: Unknown Pin: Pin RF_SIG_3-2
+Add Pin To Net: Unknown Pin: Pin RF_SIG_4-1
+Add Pin To Net: Unknown Pin: Pin RF_SIG_4-2
+Add Pin To Net: Unknown Pin: Pin RF_Signal-1
+Add Pin To Net: Unknown Pin: Pin RF_Signal-2
+Add Pin To Net: Unknown Pin: Pin V1-1
+Add Pin To Net: Unknown Pin: Pin V1-2
+Add Pin To Net: Unknown Pin: Pin V1_3-1
+Add Pin To Net: Unknown Pin: Pin V1_3-2
+Add Pin To Net: Unknown Pin: Pin V1_4-1
+Add Pin To Net: Unknown Pin: Pin V1_4-2
+Add Pin To Net: Unknown Pin: Pin V2-1
+Add Pin To Net: Unknown Pin: Pin V2-2
+Add Pin To Net: Unknown Pin: Pin V2_4-1
+Add Pin To Net: Unknown Pin: Pin V2_4-2
+Add Pin To Net: Unknown Pin: Pin V3-1
+Add Pin To Net: Unknown Pin: Pin V3-2
+Add Pin To Net: Unknown Pin: Pin V3_4-1
+Add Pin To Net: Unknown Pin: Pin V3_4-2
+Add Pin To Net: Unknown Pin: Pin V4-1
+Add Pin To Net: Unknown Pin: Pin V4-2

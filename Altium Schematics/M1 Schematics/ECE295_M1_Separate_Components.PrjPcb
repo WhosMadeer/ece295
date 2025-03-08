@@ -135,23 +135,6 @@ GenerateClassCluster=0
 DocumentUniqueId=TZIVOZZL
 
 [Document6]
-DocumentPath=..\..\..\..\..\..\Downloads\PRPC004SAAN_RC\AltiumDesigner\Project Outputs for PRPC004SAAN-RC\PRPC004SAAN-RC.IntLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document7]
 DocumentPath=..\..\..\..\..\..\Downloads\C330C105K5R5TA7301\AltiumDesigner\Project Outputs for C330C105K5R5TA7301\C330C105K5R5TA7301.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document7]
 DocumentPath=..\..\..\..\..\..\Downloads\BRC1608TR50M6\BRC1608TR50M6.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document8]
 DocumentPath=..\..\..\..\..\..\Downloads\BRC1608TR50M6\PCB1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,8 +185,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MKYGGOXM
 
-[Document10]
+[Document9]
 DocumentPath=NewBOM.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document10]
+DocumentPath=..\..\..\..\..\..\Downloads\PRPC004SAAN_RC\AltiumDesigner\Project Outputs for PRPC004SAAN-RC\PRPC004SAAN-RC.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
