@@ -1,0 +1,11 @@
+Plotted to '/Users/karenweng/Documents/KiCad/footprint tutorial/ECE295/ECE295-F_Cu.gbr'.
+Plotted to '/Users/karenweng/Documents/KiCad/footprint tutorial/ECE295/ECE295-B_Cu.gbr'.
+Plotted to '/Users/karenweng/Documents/KiCad/footprint tutorial/ECE295/ECE295-F_Paste.gbr'.
+Plotted to '/Users/karenweng/Documents/KiCad/footprint tutorial/ECE295/ECE295-B_Paste.gbr'.
+Plotted to '/Users/karenweng/Documents/KiCad/footprint tutorial/ECE295/ECE295-F_Silkscreen.gbr'.
+Plotted to '/Users/karenweng/Documents/KiCad/footprint tutorial/ECE295/ECE295-B_Silkscreen.gbr'.
+Plotted to '/Users/karenweng/Documents/KiCad/footprint tutorial/ECE295/ECE295-F_Mask.gbr'.
+Plotted to '/Users/karenweng/Documents/KiCad/footprint tutorial/ECE295/ECE295-B_Mask.gbr'.
+Plotted to '/Users/karenweng/Documents/KiCad/footprint tutorial/ECE295/ECE295-Edge_Cuts.gbr'.
+Created Gerber job file '/Users/karenweng/Documents/KiCad/footprint tutorial/ECE295/ECE295-job.gbrjob'.
+Info: Done.
