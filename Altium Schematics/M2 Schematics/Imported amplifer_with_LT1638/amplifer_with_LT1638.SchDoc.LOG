@@ -1,0 +1,8 @@
+Importer Log Report
+Document: C:\Users\khanda71\ece295\Final LTSpice Circuits\amplifer_with_LT1638.asc
+    Section : Import Document - C:\Users\khanda71\ece295\Imported amplifer_with_LT1638\amplifer_with_LT1638.SchDoc
+        Error: Voltage source PWR1 has no parameters! Could not create simulation data!
+        Error: Voltage source PWR1 has no parameters! Could not create simulation data!
+        Error: Could not recognize simulation model : LT1638  for part U2
+        Error: Could not recognize simulation model : LT1638  for part X?
+    EndSection
