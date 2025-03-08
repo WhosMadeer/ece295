@@ -288,7 +288,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document15]
-DocumentPath=..\..\..\..\..\..\Downloads\C322C104M5U5TA\AltiumDesigner\Project Outputs for C322C104M5U5TA\C322C104M5U5TA.IntLib
+DocumentPath=..\..\..\..\..\..\Downloads\C330C105K5R5TA7301\AltiumDesigner\Project Outputs for C330C105K5R5TA7301\C330C105K5R5TA7301.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -305,7 +305,24 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document16]
-DocumentPath=..\..\..\..\..\..\Downloads\C330C105K5R5TA7301\AltiumDesigner\Project Outputs for C330C105K5R5TA7301\C330C105K5R5TA7301.IntLib
+DocumentPath=..\..\..\..\..\..\Downloads\BRC1608TR50M6 (1)\INDC1608X100N.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FQXARQWC
+
+[Document17]
+DocumentPath=..\..\..\..\..\..\Downloads\BRC1608TR50M6 (1)\BRC1608TR50M6.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
