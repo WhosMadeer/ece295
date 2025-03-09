@@ -1,0 +1,86 @@
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Added Component: Designator=R3(YAG_MF25_YAG)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R4(YAG_MF25_YAG)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R5(YAG_MF25_YAG)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R6(YAG_MF25_YAG)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R7(YAG_MF25_YAG)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R8(YAG_MF25_YAG)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R9(YAG_MF25_YAG)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R10(YAG_MF25_YAG)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Pin To Net: Unknown Pin: Pin I1-1
+Add Pin To Net: Unknown Pin: Pin I1-2
+Add Pin To Net: Unknown Pin: Pin LO_signal1-1
+Add Pin To Net: Unknown Pin: Pin LO_signal1-2
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Added Pin To Net: NetName=NetC7_P Pin=R3-1
+Added Pin To Net: NetName=5V Pin=R3-2
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=NetC7_P Pin=R4-2
+Added Pin To Net: NetName=Low_Pass_0Deg Pin=R5-1
+Added Pin To Net: NetName=5V Pin=R5-2
+Added Pin To Net: NetName=Low_Pass_90Deg Pin=R6-1
+Added Pin To Net: NetName=5V Pin=R6-2
+Added Pin To Net: NetName=NetC9_P Pin=R7-1
+Added Pin To Net: NetName=5V Pin=R7-2
+Added Pin To Net: NetName=GND Pin=R8-1
+Added Pin To Net: NetName=Low_Pass_0Deg Pin=R8-2
+Added Pin To Net: NetName=GND Pin=R9-1
+Added Pin To Net: NetName=Low_Pass_90Deg Pin=R9-2
+Added Pin To Net: NetName=GND Pin=R10-1
+Added Pin To Net: NetName=NetC9_P Pin=R10-2
+Add Pin To Net: Unknown Pin: Pin RF_Signal1-1
+Add Pin To Net: Unknown Pin: Pin RF_Signal1-2
+Add Pin To Net: Unknown Pin: Pin Rg1-1
+Add Pin To Net: Unknown Pin: Pin Rg1-2
+Add Pin To Net: Unknown Pin: Pin Rg2-1
+Add Pin To Net: Unknown Pin: Pin Rg2-2
+Add Pin To Net: Unknown Pin: Pin Rg3-1
+Add Pin To Net: Unknown Pin: Pin Rg3-2
+Add Pin To Net: Unknown Pin: Pin Rg4-1
+Add Pin To Net: Unknown Pin: Pin Rg4-2
+Add Pin To Net: Unknown Pin: Pin V1-1
+Add Pin To Net: Unknown Pin: Pin V1-2
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component R3 MFP-25BRD52-100K
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component R4 MFP-25BRD52-100K
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component R5 MFP-25BRD52-100K
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component R6 MFP-25BRD52-100K
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component R7 MFP-25BRD52-100K
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component R8 MFP-25BRD52-100K
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component R9 MFP-25BRD52-100K
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component R10 MFP-25BRD52-100K
+Add Class Member: Failed to add class member : Component Rg1 Res1
+Add Class Member: Failed to add class member : Component Rg2 Res1
+Add Class Member: Failed to add class member : Component Rg3 Res1
+Add Class Member: Failed to add class member : Component Rg4 Res1
