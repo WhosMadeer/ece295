@@ -1,0 +1,138 @@
+Removed Pin From Net: NetName=GND Pin=D1_1-1
+Removed Pin From Net: NetName=GND Pin=D2_1-2
+Removed Pin From Net: NetName=GND Pin=L1_2-1
+Removed Pin From Net: NetName=GND Pin=L3_2-1
+Removed Pin From Net: NetName=IF1_Signal Pin=Q1_3-3
+Removed Pin From Net: NetName=IF2_Signal Pin=Q2_3-3
+Removed Pin From Net: NetName=IF1_Signal Pin=Q3_3-3
+Removed Pin From Net: NetName=IF2_Signal Pin=Q4_3-3
+Removed Pin From Net: NetName=NetQ5_2 Pin=Q5-2
+Removed Pin From Net: NetName=NetQ6_2 Pin=Q6-2
+Removed Pin From Net: NetName=GND Pin=R2_2-1
+Removed Pin From Net: NetName=GND Pin=U1-4
+Removed Pin From Net: NetName=GND Pin=U?-4
+Change Component Designator: OldDesignator=C1 NewDesignator=C13
+Change Component Designator: OldDesignator=C2 NewDesignator=C14
+Change Component Designator: OldDesignator=C3 NewDesignator=C12
+Change Component Designator: OldDesignator=C4 NewDesignator=C11
+Change Component Designator: OldDesignator=C5 NewDesignator=C15
+Change Component Designator: OldDesignator=C6 NewDesignator=C16
+Change Component Designator: OldDesignator=L1 NewDesignator=L2
+Change Component Designator: OldDesignator=L2 NewDesignator=L1
+Change Component Designator: OldDesignator=Q1 NewDesignator=Q3
+Change Component Designator: OldDesignator=Q2 NewDesignator=Q1
+Change Component Designator: OldDesignator=Q3 NewDesignator=Q4
+Change Component Designator: OldDesignator=Q4 NewDesignator=Q2
+Change Component Designator: OldDesignator=Q5 NewDesignator=Q6
+Change Component Designator: OldDesignator=Q6 NewDesignator=Q5
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Added Component: Designator=U3(LT-N8-8)
+Add component (AddParameter): Name = "Channels (#)"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.linear.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://cds.linear.com/docs/en/datasheet/16389fg.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://cds.linear.com/docs/en/packaging/05081510_I_N8.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GBW (MHz) Typical"; Value = "1.2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Is (mA) Typical"; Value = "0.17"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Linear Technology Part Number"; Value = "LT1638"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Linear Technology"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "8-Lead PDIP, Body 10.16 x 6.48 mm, Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "LT-N8-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev I"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "LT1638CN8#PBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RevisionNote"; Value = "URLs updated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Pb-Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SR (V/us) Typical"; Value = "0.38"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "VFB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vos (mV) Guaranteed"; Value = "0.6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vos (mV) Typical"; Value = "0.2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vs Max (V)"; Value = "44"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vs Min (V)"; Value = "2.2"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin C6-2
+Add Pin To Net: Unknown Pin: Pin C7-2
+Add Pin To Net: Unknown Pin: Pin C9-2
+Add Pin To Net: Unknown Pin: Pin C10-2
+Add Pin To Net: Unknown Pin: Pin I1-1
+Add Pin To Net: Unknown Pin: Pin I1-2
+Added Pin To Net: NetName=GND Pin=J3-4
+Added Pin To Net: NetName=NetQ5_2 Pin=Q5-2
+Added Pin To Net: NetName=NetQ6_2 Pin=Q6-2
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R23-1
+Add Pin To Net: Unknown Pin: Pin R27-1
+Add Pin To Net: Unknown Pin: Pin R28-1
+Add Pin To Net: Unknown Pin: Pin R29-1
+Add Pin To Net: Unknown Pin: Pin RF_Signal1-1
+Add Pin To Net: Unknown Pin: Pin RF_Signal1-2
+Add Pin To Net: Unknown Pin: Pin Rg3-2
+Added Pin To Net: NetName=GND Pin=U3-4
+Added Pin To Net: NetName=NetC7_2 Pin=U3-7
+Add Pin To Net: Unknown Pin: Pin V1-2
+Change Net Name : Old Net Name=NetC2_2 New Net Name=NetC14_2
+Change Net Name : Old Net Name=NetC3_1 New Net Name=NetC11_1
+Change Net Name : Old Net Name=NetC6_2 New Net Name=NetC16_2
+Change Net Name : Old Net Name=NetQ3_1 New Net Name=NetQ2_1
+Added Pin To Net: NetName=5V Pin=J3-2
+Added Pin To Net: NetName=5V Pin=U3-8
+Added Net: Name=5V
+Added Pin To Net: NetName=I_Signal Pin=J3-1
+Added Net: Name=I_Signal
+Added Pin To Net: NetName=Low_Pass_0Deg Pin=U3-3
+Added Net: Name=Low_Pass_0Deg
+Added Pin To Net: NetName=Low_Pass_90Deg Pin=U3-5
+Added Net: Name=Low_Pass_90Deg
+Added Net: Name=MixertoAmplifer_I
+Added Net: Name=MixertoAmplifer_Q
+Added Net: Name=NetC1_1
+Added Net: Name=NetC3_1
+Added Pin To Net: NetName=NetC5_2 Pin=U3-1
+Added Net: Name=NetC5_2
+Added Net: Name=NetC6_1
+Added Net: Name=NetC8_1
+Added Pin To Net: NetName=NetLO_signal1_1 Pin=Q2-2
+Added Pin To Net: NetName=NetLO_signal1_1 Pin=Q3-2
+Added Net: Name=NetLO_signal1_1
+Added Pin To Net: NetName=NetLO_signal1_2 Pin=Q1-2
+Added Pin To Net: NetName=NetLO_signal1_2 Pin=Q4-2
+Added Net: Name=NetLO_signal1_2
+Added Net: Name=NetR1_2
+Added Pin To Net: NetName=NetRg1_1 Pin=U3-2
+Added Net: Name=NetRg1_1
+Added Pin To Net: NetName=NetRg3_1 Pin=U3-6
+Added Net: Name=NetRg3_1
+Added Pin To Net: NetName=Q_Signal Pin=J3-3
+Added Net: Name=Q_Signal
+Added Class: Name=mahirAMPLIFER

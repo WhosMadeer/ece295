@@ -1,0 +1,152 @@
+Removed Pin From Net: NetName=NetC5_2 Pin=U3-1
+Removed Pin From Net: NetName=NetRg1_1 Pin=U3-2
+Removed Pin From Net: NetName=Low_Pass_0Deg Pin=U3-3
+Removed Member From Class: ClassName=mahirAMPLIFER Member=C11
+Removed Member From Class: ClassName=mahirAMPLIFER Member=C12
+Removed Member From Class: ClassName=mahirAMPLIFER Member=C13
+Removed Member From Class: ClassName=mahirAMPLIFER Member=C14
+Removed Member From Class: ClassName=mahirAMPLIFER Member=C15
+Removed Member From Class: ClassName=mahirAMPLIFER Member=C16
+Change Component Designator: OldDesignator=U3 NewDesignator=U4
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Added Component: Designator=U3(LT-N8-8)
+Add component (AddParameter): Name = "Channels (#)"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.linear.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://cds.linear.com/docs/en/datasheet/16389fg.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://cds.linear.com/docs/en/packaging/05081510_I_N8.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GBW (MHz) Typical"; Value = "1.2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Is (mA) Typical"; Value = "0.17"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Linear Technology Part Number"; Value = "LT1638"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Linear Technology"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "8-Lead PDIP, Body 10.16 x 6.48 mm, Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "LT-N8-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev I"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "LT1638CN8#PBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RevisionNote"; Value = "URLs updated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Pb-Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SR (V/us) Typical"; Value = "0.38"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "VFB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vos (mV) Guaranteed"; Value = "0.6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vos (mV) Typical"; Value = "0.2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vs Max (V)"; Value = "44"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vs Min (V)"; Value = "2.2"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C4-2
+Add Pin To Net: Unknown Pin: Pin C5-1
+Add Pin To Net: Unknown Pin: Pin C5-2
+Add Pin To Net: Unknown Pin: Pin C6-1
+Add Pin To Net: Unknown Pin: Pin C6-2
+Add Pin To Net: Unknown Pin: Pin C7-1
+Add Pin To Net: Unknown Pin: Pin C7-2
+Add Pin To Net: Unknown Pin: Pin C8-1
+Add Pin To Net: Unknown Pin: Pin C8-2
+Add Pin To Net: Unknown Pin: Pin C9-1
+Add Pin To Net: Unknown Pin: Pin C9-2
+Add Pin To Net: Unknown Pin: Pin C10-1
+Add Pin To Net: Unknown Pin: Pin C10-2
+Add Pin To Net: Unknown Pin: Pin I1-1
+Add Pin To Net: Unknown Pin: Pin I1-2
+Add Pin To Net: Unknown Pin: Pin LO_signal1-1
+Add Pin To Net: Unknown Pin: Pin LO_signal1-2
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R22-1
+Add Pin To Net: Unknown Pin: Pin R22-2
+Add Pin To Net: Unknown Pin: Pin R23-1
+Add Pin To Net: Unknown Pin: Pin R23-2
+Add Pin To Net: Unknown Pin: Pin R24-1
+Add Pin To Net: Unknown Pin: Pin R24-2
+Add Pin To Net: Unknown Pin: Pin R25-1
+Add Pin To Net: Unknown Pin: Pin R25-2
+Add Pin To Net: Unknown Pin: Pin R26-1
+Add Pin To Net: Unknown Pin: Pin R26-2
+Add Pin To Net: Unknown Pin: Pin R27-1
+Add Pin To Net: Unknown Pin: Pin R27-2
+Add Pin To Net: Unknown Pin: Pin R28-1
+Add Pin To Net: Unknown Pin: Pin R28-2
+Add Pin To Net: Unknown Pin: Pin R29-1
+Add Pin To Net: Unknown Pin: Pin R29-2
+Add Pin To Net: Unknown Pin: Pin RF_Signal1-1
+Add Pin To Net: Unknown Pin: Pin RF_Signal1-2
+Add Pin To Net: Unknown Pin: Pin Rg1-1
+Add Pin To Net: Unknown Pin: Pin Rg1-2
+Add Pin To Net: Unknown Pin: Pin Rg2-1
+Add Pin To Net: Unknown Pin: Pin Rg2-2
+Add Pin To Net: Unknown Pin: Pin Rg3-1
+Add Pin To Net: Unknown Pin: Pin Rg3-2
+Add Pin To Net: Unknown Pin: Pin Rg4-1
+Add Pin To Net: Unknown Pin: Pin Rg4-2
+Add Pin To Net: Unknown Pin: Pin Rs1-1
+Add Pin To Net: Unknown Pin: Pin Rs1-2
+Add Pin To Net: Unknown Pin: Pin Rs2-1
+Add Pin To Net: Unknown Pin: Pin Rs2-2
+Added Pin To Net: NetName=NetC5_2 Pin=U3-1
+Added Pin To Net: NetName=NetRg1_1 Pin=U3-2
+Added Pin To Net: NetName=Low_Pass_0Deg Pin=U3-3
+Added Pin To Net: NetName=GND Pin=U3-4
+Added Pin To Net: NetName=5V Pin=U3-8
+Add Pin To Net: Unknown Pin: Pin V1-1
+Add Pin To Net: Unknown Pin: Pin V1-2
+Add Class Member: Failed to add class member : Component C1 Filter Cap
+Add Class Member: Failed to add class member : Component C2 Filter Cap
+Add Class Member: Failed to add class member : Component C3 DC Cap
+Add Class Member: Failed to add class member : Component C4 DC Cap
+Add Class Member: Failed to add class member : Component C5 AC Cap
+Add Class Member: Failed to add class member : Component C6 DC Cap
+Add Class Member: Failed to add class member : Component C7 AC Cap
+Add Class Member: Failed to add class member : Component C8 DC Cap
+Add Class Member: Failed to add class member : Component C9 Filter Cap
+Add Class Member: Failed to add class member : Component C10 Filter Cap
+Add Class Member: Failed to add class member : Component R22 DC Bias Res
+Add Class Member: Failed to add class member : Component R23 DC Bias Res
+Add Class Member: Failed to add class member : Component R24 DC Bias Res
+Add Class Member: Failed to add class member : Component R25 DC Bias Res
+Add Class Member: Failed to add class member : Component R26 DC Bias Res
+Add Class Member: Failed to add class member : Component R27 DC Bias Res
+Add Class Member: Failed to add class member : Component R28 DC Bias Res
+Add Class Member: Failed to add class member : Component R29 DC Bias Res
+Add Class Member: Failed to add class member : Component Rg1 Res1
+Add Class Member: Failed to add class member : Component Rg2 Res1
+Add Class Member: Failed to add class member : Component Rg3 Res1
+Add Class Member: Failed to add class member : Component Rg4 Res1
+Add Class Member: Failed to add class member : Component Rs1 Filter Resistor
+Add Class Member: Failed to add class member : Component Rs2 Filter Resistor
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component U4 LT1638CN8#PBF
