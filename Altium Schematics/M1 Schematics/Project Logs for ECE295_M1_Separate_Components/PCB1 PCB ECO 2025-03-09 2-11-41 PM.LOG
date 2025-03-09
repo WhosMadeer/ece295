@@ -1,0 +1,213 @@
+Removed Pin From Net: NetName=LimitertoGilbert Pin=C12-2
+Removed Pin From Net: NetName=LimitertoBandpass Pin=C13-1
+Removed Pin From Net: NetName=GND Pin=C13-2
+Removed Pin From Net: NetName=LimitertoGilbert Pin=C15-1
+Removed Pin From Net: NetName=Low_Pass_0Deg Pin=U3-3
+Change Component Footprint: Designator=C12 Old Footprint=CAP_C330C_MR_X7R_KEM New Footprint=CAPPRD250W50D500H1100
+Change Component Footprint: Designator=C15 Old Footprint=CAP_C330C_MR_X7R_KEM New Footprint=K103K10X7RF53L2_VIS
+Change Component Comment : Designator=C12 Old Comment=C330C105K5R5TA7301 New Comment=ECA1CM100I
+Change Component Comment : Designator=C15 Old Comment=C330C105K5R5TA7301 New Comment=K103K10X7RF53L2
+Change Component Designator: OldDesignator=C11 NewDesignator=C1
+Change Component Designator: OldDesignator=C14 NewDesignator=C4
+Change Component Designator: OldDesignator=C16 NewDesignator=C6
+Change Component Designator: OldDesignator=J3 NewDesignator=J?
+Change Component Designator: OldDesignator=U3 NewDesignator=U?
+Change component parameters: Designator = "C12" ("C12"); Footprint = "CAP_C330C_MR_X7R_KEM"; UniqueID = "\DHMERSFF" ("\DHMERSFF")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key_Part_Number"; Value = "P19513TB-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "ECA1CM100I"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "RADIAL-2 Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C15" ("C15"); Footprint = "CAP_C330C_MR_X7R_KEM"; UniqueID = "\UWFQJARW" ("\UWFQJARW")
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Ceramic Capacitor"; VariantName = "[No Variations]"
+Added Component: Designator=C2(K103K10X7RF53L2_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Ceramic Capacitor"; VariantName = "[No Variations]"
+Added Component: Designator=C3(K103K10X7RF53L2_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Ceramic Capacitor"; VariantName = "[No Variations]"
+Added Component: Designator=C5(K103K10X7RF53L2_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Ceramic Capacitor"; VariantName = "[No Variations]"
+Added Component: Designator=C7(CAPPRD250W50D500H1100)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "P19513TB-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ECA1CM100I"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "RADIAL-2 Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C9(CAPPRD250W50D500H1100)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "P19513TB-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ECA1CM100I"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "RADIAL-2 Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C10(CAPPRD250W50D500H1100)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "P19513TB-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ECA1CM100I"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "RADIAL-2 Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C11(CAPPRD250W50D500H1100)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "P19513TB-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ECA1CM100I"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "RADIAL-2 Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C16(K103K10X7RF53L2_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Ceramic Capacitor"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPPRD250W50D500H1100)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "P19513TB-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ECA1CM100I"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "RADIAL-2 Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found RADIAL-0.1
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Added Component: Designator=U?(LT-N8-8)
+Add component (AddParameter): Name = "Channels (#)"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.linear.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://cds.linear.com/docs/en/datasheet/16389fg.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://cds.linear.com/docs/en/packaging/05081510_I_N8.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GBW (MHz) Typical"; Value = "1.2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Is (mA) Typical"; Value = "0.17"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Linear Technology Part Number"; Value = "LT1638"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Linear Technology"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "8-Lead PDIP, Body 10.16 x 6.48 mm, Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "LT-N8-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev I"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "LT1638CN8#PBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RevisionNote"; Value = "URLs updated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Pb-Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SR (V/us) Typical"; Value = "0.38"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "VFB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vos (mV) Guaranteed"; Value = "0.6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vos (mV) Typical"; Value = "0.2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vs Max (V)"; Value = "44"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vs Min (V)"; Value = "2.2"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_1 Pin=C2-1
+Added Pin To Net: NetName=LimitertoGilbert Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=LimitertoBandpass Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=LimitertoGilbert Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C7-N
+Added Pin To Net: NetName=GND Pin=C9-N
+Added Pin To Net: NetName=Q_Signal Pin=C10-N
+Added Pin To Net: NetName=Low_Pass_0Deg Pin=C11-N
+Added Pin To Net: NetName=MixertoAmplifer_I Pin=C11-P
+Added Pin To Net: NetName=Low_Pass_90Deg Pin=C12-N
+Added Pin To Net: NetName=MixertoAmplifer_Q Pin=C12-P
+Added Pin To Net: NetName=MixertoAmplifer_I Pin=C15-1
+Added Pin To Net: NetName=MixertoAmplifer_Q Pin=C16-1
+Added Pin To Net: NetName=GND Pin=C16-2
+Add Pin To Net: Unknown Pin: Pin C?-1
+Add Pin To Net: Unknown Pin: Pin C?-1
+Add Pin To Net: Unknown Pin: Pin C?-2
+Add Pin To Net: Unknown Pin: Pin C?-2
+Added Pin To Net: NetName=I_Signal Pin=C?-N
+Add Pin To Net: Unknown Pin: Pin I1-1
+Add Pin To Net: Unknown Pin: Pin I1-2
+Added Pin To Net: NetName=NetC1_1 Pin=L1-2
+Add Pin To Net: Unknown Pin: Pin LO_signal1-1
+Add Pin To Net: Unknown Pin: Pin LO_signal1-2
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-2
+Add Pin To Net: Unknown Pin: Pin R?-2
+Add Pin To Net: Unknown Pin: Pin R?-2
+Add Pin To Net: Unknown Pin: Pin R?-2
+Add Pin To Net: Unknown Pin: Pin R?-2
+Add Pin To Net: Unknown Pin: Pin R?-2
+Add Pin To Net: Unknown Pin: Pin RF_Signal1-1
+Add Pin To Net: Unknown Pin: Pin RF_Signal1-2
+Added Pin To Net: NetName=Low_Pass_0Deg Pin=U?-3
+Added Pin To Net: NetName=GND Pin=U?-4
+Added Pin To Net: NetName=5V Pin=U?-8
+Add Pin To Net: Unknown Pin: Pin V1-1
+Add Pin To Net: Unknown Pin: Pin V1-2
+Change Net Name : Old Net Name=NetC14_2 New Net Name=NetC4_2
+Change Net Name : Old Net Name=NetC16_2 New Net Name=NetC6_2
+Added Pin To Net: NetName=NetC7_P Pin=C7-P
+Added Net: Name=NetC7_P
+Added Pin To Net: NetName=NetC9_P Pin=C9-P
+Added Net: Name=NetC9_P
+Added Pin To Net: NetName=NetC10_P Pin=C10-P
+Added Pin To Net: NetName=NetC10_P Pin=U?-7
+Added Net: Name=NetC10_P
+Added Pin To Net: NetName=NetC?_P Pin=C?-P
+Added Pin To Net: NetName=NetC?_P Pin=U?-1
+Added Net: Name=NetC?_P
+Added Pin To Net: NetName=NetRg?_1 Pin=U?-2
+Added Net: Name=NetRg?_1
+Add Net: Net with name "NetRg?_1" already exists
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C7 ECA1CM100I
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C9 ECA1CM100I
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C10 ECA1CM100I
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C11 ECA1CM100I
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C12 ECA1CM100I
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C15 K103K10X7RF53L2
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C16 K103K10X7RF53L2
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C? ECA1CM100I
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C? Filter Cap
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C? Filter Cap
+Add Class Member: Failed to add class member : Component R? DC Bias Res
+Add Class Member: Failed to add class member : Component R? DC Bias Res
+Add Class Member: Failed to add class member : Component R? DC Bias Res
+Add Class Member: Failed to add class member : Component R? DC Bias Res
+Add Class Member: Failed to add class member : Component R? DC Bias Res
+Add Class Member: Failed to add class member : Component R? DC Bias Res
+Add Class Member: Failed to add class member : Component R? DC Bias Res
+Add Class Member: Failed to add class member : Component R? DC Bias Res
+Add Class Member: Failed to add class member : Component Rg? Res1
+Add Class Member: Failed to add class member : Component Rg? Res1
+Add Class Member: Failed to add class member : Component Rg? Res1
+Add Class Member: Failed to add class member : Component Rg? Res1
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component U? LT1638CN8#PBF
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component U? LT1638CN8#PBF
