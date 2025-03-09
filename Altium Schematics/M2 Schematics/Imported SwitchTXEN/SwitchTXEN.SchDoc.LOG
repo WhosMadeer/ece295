@@ -1,0 +1,20 @@
+Importer Log Report
+Document: C:\Users\khanda71\ece295\Final LTSpice Circuits\SwitchTXEN.asc
+    Section : Import Document - C:\Users\khanda71\ece295\Final LTSpice Circuits\Imported SwitchTXEN\SwitchTXEN.SchDoc
+        Error: Voltage source PWR1 has no parameters! Could not create simulation data!
+        Error: Voltage source PWR1 has no parameters! Could not create simulation data!
+        Error: Voltage source LVTTL has no parameters! Could not create simulation data!
+        Error: Voltage source LVTTL has no parameters! Could not create simulation data!
+        Error: The model file : 
+ for part M1 is BINARY, parameters could not be extracted by importer
+        Error: The model file : 
+ for part M1 is BINARY, parameters could not be extracted by importer
+        Error: The model file : 
+ for part M2 is BINARY, parameters could not be extracted by importer
+        Error: The model file : 
+ for part M2 is BINARY, parameters could not be extracted by importer
+        Error: The model file : 
+ for part M3 is BINARY, parameters could not be extracted by importer
+        Error: The model file : 
+ for part M3 is BINARY, parameters could not be extracted by importer
+    EndSection
