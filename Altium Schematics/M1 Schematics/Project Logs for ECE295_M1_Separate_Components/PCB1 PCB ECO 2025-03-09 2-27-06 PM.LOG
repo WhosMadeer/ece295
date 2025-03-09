@@ -1,0 +1,508 @@
+Added Component: Designator=C1(CAP_RCER71H104K0A2H03B)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "RCER71H104K0A2H03B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C2(K103K10X7RF53L2_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Ceramic Capacitor"; VariantName = "[No Variations]"
+Added Component: Designator=C3(K103K10X7RF53L2_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Ceramic Capacitor"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CAP_RCER71H104K0A2H03B)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "RCER71H104K0A2H03B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C5(K103K10X7RF53L2_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Ceramic Capacitor"; VariantName = "[No Variations]"
+Added Component: Designator=C6(CAP_RCER71H104K0A2H03B)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "RCER71H104K0A2H03B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C8(CAPPRD250W50D500H1100)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "P19513TB-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ECA1CM100I"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "RADIAL-2 Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C13(CAP_RCER71H104K0A2H03B)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "RCER71H104K0A2H03B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C14(CAP_RCER71H104K0A2H03B)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "RCER71H104K0A2H03B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPPRD250W50D500H1100)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "P19513TB-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ECA1CM100I"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "RADIAL-2 Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPPRD250W50D500H1100)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "P19513TB-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ECA1CM100I"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "RADIAL-2 Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPPRD250W50D500H1100)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "P19513TB-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ECA1CM100I"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "RADIAL-2 Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C?(K103K10X7RF53L2_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Ceramic Capacitor"; VariantName = "[No Variations]"
+Added Component: Designator=C?(K103K10X7RF53L2_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Ceramic Capacitor"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPPRD250W50D500H1100)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "P19513TB-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ECA1CM100I"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "RADIAL-2 Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPPRD250W50D500H1100)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "P19513TB-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ECA1CM100I"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "RADIAL-2 Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D1(NXP-SOD27-2_V)
+Add component (AddParameter): Name = "Cd"; Value = "4 pF Max."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.nxp.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Aug-04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IF"; Value = "200 mA Max."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IFRM"; Value = "450 mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IFSM"; Value = "4 A Max."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IR (VR"; Value = "20 V)=25 nA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "NXP Semiconductors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin Hermetically Sealed Glass Package, Axial Leaded, Dia 1.85 mm, Body Length 4.25 mm, Lead Spread 25.4 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOD27"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Aug-04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "1N4148"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Trr"; Value = "4 ns Max."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VF (IF"; Value = "10 mA)=1 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VR"; Value = "100 V Max."; VariantName = "[No Variations]"
+Added Component: Designator=D2(NXP-SOD27-2_V)
+Add component (AddParameter): Name = "Cd"; Value = "4 pF Max."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.nxp.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Aug-04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IF"; Value = "200 mA Max."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IFRM"; Value = "450 mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IFSM"; Value = "4 A Max."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IR (VR"; Value = "20 V)=25 nA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "NXP Semiconductors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin Hermetically Sealed Glass Package, Axial Leaded, Dia 1.85 mm, Body Length 4.25 mm, Lead Spread 25.4 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOD27"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Aug-04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "1N4148"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Trr"; Value = "4 ns Max."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VF (IF"; Value = "10 mA)=1 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VR"; Value = "100 V Max."; VariantName = "[No Variations]"
+Added Component: Designator=L1(INDC1608X100N)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BRC1608TR50M6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=L2(INDC1608X100N)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BRC1608TR50M6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=L3(INDC1608X100N)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BRC1608TR50M6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=Q1(MLTC-TO-18-3)
+Add component (AddParameter): Name = "Collector Emitter Voltage V(br)ceo"; Value = "30V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Collector Emitter Voltage Vces"; Value = "400mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Continuous Collector Current Ic Max"; Value = "800mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Ic @ Vce Sat"; Value = "150mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Ic Continuous a Max"; Value = "800mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Ic hFE"; Value = "150mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.farnell.com/datasheets/1662272.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 1.1, 05/2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Collector Current"; Value = "800mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Current Gain hFE"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Full Power Rating Temperature"; Value = "25degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain Bandwidth ft Min"; Value = "250MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain Bandwidth ft Typ"; Value = "250MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Hfe Min"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Multicomp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://uk.farnell.com/b/multicomp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "No. of Pins"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "No. of Transistors"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "TO-18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "3-Pin Transistor Outline Package (TO-18), Dia 5.54 mm, Pitch Pitch 1.485mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "TO-18-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Configuration"; Value = "a"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation Pd"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation Ptot Max"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SVHC"; Value = "NoSVHC(19-Dec-2012)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Transistor Case Style"; Value = "TO-18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Transistor Polarity"; Value = "NPN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Vcbo"; Value = "60V"; VariantName = "[No Variations]"
+Added Component: Designator=Q2(MLTC-TO-18-3)
+Add component (AddParameter): Name = "Collector Emitter Voltage V(br)ceo"; Value = "30V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Collector Emitter Voltage Vces"; Value = "400mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Continuous Collector Current Ic Max"; Value = "800mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Ic @ Vce Sat"; Value = "150mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Ic Continuous a Max"; Value = "800mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Ic hFE"; Value = "150mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.farnell.com/datasheets/1662272.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 1.1, 05/2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Collector Current"; Value = "800mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Current Gain hFE"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Full Power Rating Temperature"; Value = "25degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain Bandwidth ft Min"; Value = "250MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain Bandwidth ft Typ"; Value = "250MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Hfe Min"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Multicomp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://uk.farnell.com/b/multicomp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "No. of Pins"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "No. of Transistors"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "TO-18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "3-Pin Transistor Outline Package (TO-18), Dia 5.54 mm, Pitch Pitch 1.485mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "TO-18-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Configuration"; Value = "a"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation Pd"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation Ptot Max"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SVHC"; Value = "NoSVHC(19-Dec-2012)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Transistor Case Style"; Value = "TO-18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Transistor Polarity"; Value = "NPN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Vcbo"; Value = "60V"; VariantName = "[No Variations]"
+Added Component: Designator=Q3(MLTC-TO-18-3)
+Add component (AddParameter): Name = "Collector Emitter Voltage V(br)ceo"; Value = "30V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Collector Emitter Voltage Vces"; Value = "400mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Continuous Collector Current Ic Max"; Value = "800mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Ic @ Vce Sat"; Value = "150mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Ic Continuous a Max"; Value = "800mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Ic hFE"; Value = "150mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.farnell.com/datasheets/1662272.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 1.1, 05/2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Collector Current"; Value = "800mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Current Gain hFE"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Full Power Rating Temperature"; Value = "25degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain Bandwidth ft Min"; Value = "250MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain Bandwidth ft Typ"; Value = "250MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Hfe Min"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Multicomp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://uk.farnell.com/b/multicomp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "No. of Pins"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "No. of Transistors"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "TO-18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "3-Pin Transistor Outline Package (TO-18), Dia 5.54 mm, Pitch Pitch 1.485mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "TO-18-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Configuration"; Value = "a"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation Pd"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation Ptot Max"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SVHC"; Value = "NoSVHC(19-Dec-2012)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Transistor Case Style"; Value = "TO-18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Transistor Polarity"; Value = "NPN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Vcbo"; Value = "60V"; VariantName = "[No Variations]"
+Added Component: Designator=Q4(MLTC-TO-18-3)
+Add component (AddParameter): Name = "Collector Emitter Voltage V(br)ceo"; Value = "30V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Collector Emitter Voltage Vces"; Value = "400mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Continuous Collector Current Ic Max"; Value = "800mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Ic @ Vce Sat"; Value = "150mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Ic Continuous a Max"; Value = "800mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Ic hFE"; Value = "150mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.farnell.com/datasheets/1662272.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 1.1, 05/2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Collector Current"; Value = "800mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Current Gain hFE"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Full Power Rating Temperature"; Value = "25degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain Bandwidth ft Min"; Value = "250MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain Bandwidth ft Typ"; Value = "250MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Hfe Min"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Multicomp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://uk.farnell.com/b/multicomp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "No. of Pins"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "No. of Transistors"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "TO-18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "3-Pin Transistor Outline Package (TO-18), Dia 5.54 mm, Pitch Pitch 1.485mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "TO-18-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Configuration"; Value = "a"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation Pd"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation Ptot Max"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SVHC"; Value = "NoSVHC(19-Dec-2012)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Transistor Case Style"; Value = "TO-18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Transistor Polarity"; Value = "NPN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Vcbo"; Value = "60V"; VariantName = "[No Variations]"
+Added Component: Designator=Q5(MLTC-TO-18-3)
+Add component (AddParameter): Name = "Collector Emitter Voltage V(br)ceo"; Value = "30V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Collector Emitter Voltage Vces"; Value = "400mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Continuous Collector Current Ic Max"; Value = "800mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Ic @ Vce Sat"; Value = "150mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Ic Continuous a Max"; Value = "800mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Ic hFE"; Value = "150mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.farnell.com/datasheets/1662272.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 1.1, 05/2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Collector Current"; Value = "800mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Current Gain hFE"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Full Power Rating Temperature"; Value = "25degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain Bandwidth ft Min"; Value = "250MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain Bandwidth ft Typ"; Value = "250MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Hfe Min"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Multicomp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://uk.farnell.com/b/multicomp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "No. of Pins"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "No. of Transistors"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "TO-18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "3-Pin Transistor Outline Package (TO-18), Dia 5.54 mm, Pitch Pitch 1.485mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "TO-18-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Configuration"; Value = "a"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation Pd"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation Ptot Max"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SVHC"; Value = "NoSVHC(19-Dec-2012)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Transistor Case Style"; Value = "TO-18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Transistor Polarity"; Value = "NPN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Vcbo"; Value = "60V"; VariantName = "[No Variations]"
+Added Component: Designator=Q6(MLTC-TO-18-3)
+Add component (AddParameter): Name = "Collector Emitter Voltage V(br)ceo"; Value = "30V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Collector Emitter Voltage Vces"; Value = "400mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Continuous Collector Current Ic Max"; Value = "800mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Ic @ Vce Sat"; Value = "150mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Ic Continuous a Max"; Value = "800mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Ic hFE"; Value = "150mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.farnell.com/datasheets/1662272.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 1.1, 05/2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Collector Current"; Value = "800mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Current Gain hFE"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Full Power Rating Temperature"; Value = "25degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain Bandwidth ft Min"; Value = "250MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain Bandwidth ft Typ"; Value = "250MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Hfe Min"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Multicomp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://uk.farnell.com/b/multicomp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "No. of Pins"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "No. of Transistors"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "TO-18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "3-Pin Transistor Outline Package (TO-18), Dia 5.54 mm, Pitch Pitch 1.485mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "TO-18-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Configuration"; Value = "a"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation Pd"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation Ptot Max"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SVHC"; Value = "NoSVHC(19-Dec-2012)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Transistor Case Style"; Value = "TO-18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Transistor Polarity"; Value = "NPN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Vcbo"; Value = "60V"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Added Component: Designator=U1(LT-N8-8)
+Add component (AddParameter): Name = "Channels (#)"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.linear.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://cds.linear.com/docs/en/datasheet/16389fg.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://cds.linear.com/docs/en/packaging/05081510_I_N8.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GBW (MHz) Typical"; Value = "1.2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Is (mA) Typical"; Value = "0.17"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Linear Technology Part Number"; Value = "LT1638"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Linear Technology"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "8-Lead PDIP, Body 10.16 x 6.48 mm, Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "LT-N8-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev I"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "LT1638CN8#PBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RevisionNote"; Value = "URLs updated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Pb-Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SR (V/us) Typical"; Value = "0.38"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "VFB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vos (mV) Guaranteed"; Value = "0.6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vos (mV) Typical"; Value = "0.2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vs Max (V)"; Value = "44"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vs Min (V)"; Value = "2.2"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=LimitertoGilbert Pin=C1-2
+Added Pin To Net: NetName=NetC1_1 Pin=C2-1
+Added Pin To Net: NetName=LimitertoGilbert Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=LimitertoBandpass Pin=C3-2
+Added Pin To Net: NetName=LimitertoBandpass Pin=C4-1
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=LimitertoGilbert Pin=C5-2
+Added Pin To Net: NetName=LimitertoGilbert Pin=C6-1
+Added Pin To Net: NetName=NetC6_2 Pin=C6-2
+Added Pin To Net: NetName=I_Signal Pin=C8-N
+Added Pin To Net: NetName=NetC8_P Pin=C8-P
+Added Pin To Net: NetName=MixertoAmplifer_I Pin=C13-1
+Added Pin To Net: NetName=GND Pin=C13-2
+Added Pin To Net: NetName=MixertoAmplifer_Q Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=MixertoAmplifer_I Pin=C?-1
+Added Pin To Net: NetName=MixertoAmplifer_Q Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-N
+Added Pin To Net: NetName=GND Pin=C?-N
+Added Pin To Net: NetName=Low_Pass_0Deg Pin=C?-N
+Added Pin To Net: NetName=Low_Pass_90Deg Pin=C?-N
+Added Pin To Net: NetName=Q_Signal Pin=C?-N
+Added Pin To Net: NetName=MixertoAmplifer_I Pin=C?-P
+Added Pin To Net: NetName=MixertoAmplifer_Q Pin=C?-P
+Added Pin To Net: NetName=NetC?_P Pin=C?-P
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=LimitertoBandpass Pin=D1-2
+Added Pin To Net: NetName=LimitertoBandpass Pin=D2-1
+Added Pin To Net: NetName=GND Pin=D2-2
+Add Pin To Net: Unknown Pin: Pin I1-1
+Add Pin To Net: Unknown Pin: Pin I1-2
+Added Pin To Net: NetName=LimitertoBandpass Pin=L1-1
+Added Pin To Net: NetName=NetC1_1 Pin=L1-2
+Added Pin To Net: NetName=NetC4_2 Pin=L2-1
+Added Pin To Net: NetName=LimitertoBandpass Pin=L2-2
+Added Pin To Net: NetName=NetC6_2 Pin=L3-1
+Added Pin To Net: NetName=LimitertoGilbert Pin=L3-2
+Add Pin To Net: Unknown Pin: Pin LO_signal1-1
+Add Pin To Net: Unknown Pin: Pin LO_signal1-2
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetLO_signal1_2 Pin=Q1-2
+Added Pin To Net: NetName=IF2_Signal Pin=Q1-3
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=NetLO_signal1_1 Pin=Q2-2
+Added Pin To Net: NetName=IF2_Signal Pin=Q2-3
+Added Pin To Net: NetName=NetQ1_1 Pin=Q3-1
+Added Pin To Net: NetName=NetLO_signal1_1 Pin=Q3-2
+Added Pin To Net: NetName=IF1_Signal Pin=Q3-3
+Added Pin To Net: NetName=NetQ2_1 Pin=Q4-1
+Added Pin To Net: NetName=NetLO_signal1_2 Pin=Q4-2
+Added Pin To Net: NetName=IF1_Signal Pin=Q4-3
+Added Pin To Net: NetName=NetI1_1 Pin=Q5-1
+Added Pin To Net: NetName=NetQ5_2 Pin=Q5-2
+Added Pin To Net: NetName=NetQ2_1 Pin=Q5-3
+Added Pin To Net: NetName=NetI1_1 Pin=Q6-1
+Added Pin To Net: NetName=NetQ6_2 Pin=Q6-2
+Added Pin To Net: NetName=NetQ1_1 Pin=Q6-3
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R3-2
+Add Pin To Net: Unknown Pin: Pin R4-1
+Add Pin To Net: Unknown Pin: Pin R5-1
+Add Pin To Net: Unknown Pin: Pin R5-2
+Add Pin To Net: Unknown Pin: Pin R6-1
+Add Pin To Net: Unknown Pin: Pin R6-2
+Add Pin To Net: Unknown Pin: Pin R7-1
+Add Pin To Net: Unknown Pin: Pin R7-2
+Add Pin To Net: Unknown Pin: Pin R8-1
+Add Pin To Net: Unknown Pin: Pin R8-2
+Add Pin To Net: Unknown Pin: Pin R9-1
+Add Pin To Net: Unknown Pin: Pin R9-2
+Add Pin To Net: Unknown Pin: Pin R10-1
+Add Pin To Net: Unknown Pin: Pin R10-2
+Add Pin To Net: Unknown Pin: Pin RF_Signal1-1
+Add Pin To Net: Unknown Pin: Pin RF_Signal1-2
+Add Pin To Net: Unknown Pin: Pin Rg1-1
+Add Pin To Net: Unknown Pin: Pin Rg1-2
+Add Pin To Net: Unknown Pin: Pin Rg2-2
+Add Pin To Net: Unknown Pin: Pin Rg3-1
+Add Pin To Net: Unknown Pin: Pin Rg4-1
+Add Pin To Net: Unknown Pin: Pin Rg4-2
+Added Pin To Net: NetName=NetC8_P Pin=U1-1
+Added Pin To Net: NetName=NetRg1_1 Pin=U1-2
+Added Pin To Net: NetName=Low_Pass_0Deg Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=Low_Pass_90Deg Pin=U1-5
+Added Pin To Net: NetName=NetRg3_1 Pin=U1-6
+Added Pin To Net: NetName=5V Pin=U1-8
+Add Pin To Net: Unknown Pin: Pin V1-1
+Add Pin To Net: Unknown Pin: Pin V1-2
+Add Net: Net with name "NetC?_P" already exists
+Add Net: Net with name "NetC?_P" already exists
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C8 ECA1CM100I
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C13 RCER71H104K0A2H03B
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C14 RCER71H104K0A2H03B
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C? ECA1CM100I
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C? ECA1CM100I
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C? ECA1CM100I
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C? K103K10X7RF53L2
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C? K103K10X7RF53L2
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C? ECA1CM100I
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C? ECA1CM100I
+Add Class Member: Failed to add class member : Component R3 DC Bias Res
+Add Class Member: Failed to add class member : Component R4 DC Bias Res
+Add Class Member: Failed to add class member : Component R5 DC Bias Res
+Add Class Member: Failed to add class member : Component R6 DC Bias Res
+Add Class Member: Failed to add class member : Component R7 DC Bias Res
+Add Class Member: Failed to add class member : Component R8 DC Bias Res
+Add Class Member: Failed to add class member : Component R9 DC Bias Res
+Add Class Member: Failed to add class member : Component R10 DC Bias Res
+Add Class Member: Failed to add class member : Component Rg1 Res1
+Add Class Member: Failed to add class member : Component Rg2 Res1
+Add Class Member: Failed to add class member : Component Rg3 Res1
+Add Class Member: Failed to add class member : Component Rg4 Res1
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component U1 LT1638CN8#PBF

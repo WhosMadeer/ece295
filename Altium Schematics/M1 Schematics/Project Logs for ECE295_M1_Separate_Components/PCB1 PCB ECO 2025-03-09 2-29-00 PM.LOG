@@ -1,0 +1,75 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C7
+Change Component Designator: OldDesignator=C? NewDesignator=C9
+Change Component Designator: OldDesignator=C? NewDesignator=C10
+Change Component Designator: OldDesignator=C? NewDesignator=C11
+Change Component Designator: OldDesignator=C? NewDesignator=C12
+Change Component Designator: OldDesignator=C? NewDesignator=C15
+Change Component Designator: OldDesignator=C? NewDesignator=C16
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Pin To Net: Unknown Pin: Pin I1-1
+Add Pin To Net: Unknown Pin: Pin I1-2
+Add Pin To Net: Unknown Pin: Pin LO_signal1-1
+Add Pin To Net: Unknown Pin: Pin LO_signal1-2
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R3-2
+Add Pin To Net: Unknown Pin: Pin R4-1
+Add Pin To Net: Unknown Pin: Pin R5-1
+Add Pin To Net: Unknown Pin: Pin R5-2
+Add Pin To Net: Unknown Pin: Pin R6-1
+Add Pin To Net: Unknown Pin: Pin R6-2
+Add Pin To Net: Unknown Pin: Pin R7-2
+Add Pin To Net: Unknown Pin: Pin R8-1
+Add Pin To Net: Unknown Pin: Pin R8-2
+Add Pin To Net: Unknown Pin: Pin R9-1
+Add Pin To Net: Unknown Pin: Pin R9-2
+Add Pin To Net: Unknown Pin: Pin R10-1
+Add Pin To Net: Unknown Pin: Pin RF_Signal1-1
+Add Pin To Net: Unknown Pin: Pin RF_Signal1-2
+Add Pin To Net: Unknown Pin: Pin Rg1-1
+Add Pin To Net: Unknown Pin: Pin Rg1-2
+Add Pin To Net: Unknown Pin: Pin Rg2-2
+Add Pin To Net: Unknown Pin: Pin Rg3-1
+Add Pin To Net: Unknown Pin: Pin Rg4-2
+Add Pin To Net: Unknown Pin: Pin V1-1
+Add Pin To Net: Unknown Pin: Pin V1-2
+Added Pin To Net: NetName=NetC7_P Pin=C7-P
+Added Net: Name=NetC7_P
+Added Pin To Net: NetName=NetC9_P Pin=C9-P
+Added Net: Name=NetC9_P
+Added Pin To Net: NetName=NetC10_P Pin=C10-P
+Added Pin To Net: NetName=NetC10_P Pin=U1-7
+Added Net: Name=NetC10_P
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C7 ECA1CM100I
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C9 ECA1CM100I
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C10 ECA1CM100I
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C11 ECA1CM100I
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C12 ECA1CM100I
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C16 K103K10X7RF53L2
+Add Class Member: Failed to add class member : Component R3 DC Bias Res
+Add Class Member: Failed to add class member : Component R4 DC Bias Res
+Add Class Member: Failed to add class member : Component R5 DC Bias Res
+Add Class Member: Failed to add class member : Component R6 DC Bias Res
+Add Class Member: Failed to add class member : Component R7 DC Bias Res
+Add Class Member: Failed to add class member : Component R8 DC Bias Res
+Add Class Member: Failed to add class member : Component R9 DC Bias Res
+Add Class Member: Failed to add class member : Component R10 DC Bias Res
+Add Class Member: Failed to add class member : Component Rg1 Res1
+Add Class Member: Failed to add class member : Component Rg2 Res1
+Add Class Member: Failed to add class member : Component Rg3 Res1
+Add Class Member: Failed to add class member : Component Rg4 Res1

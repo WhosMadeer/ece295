@@ -1,0 +1,132 @@
+Removed Pin From Net: NetName=NetC?_P Pin=C?-P
+Removed Pin From Net: NetName=NetC?_P Pin=U?-1
+Removed Pin From Net: NetName=Low_Pass_0Deg Pin=U?-3
+Removed Pin From Net: NetName=GND Pin=U?-4
+Removed Pin From Net: NetName=5V Pin=U?-8
+Removed Member From Class: ClassName=mahirAMPLIFER Member=C1
+Removed Member From Class: ClassName=mahirAMPLIFER Member=C6
+Removed Member From Class: ClassName=mahirAMPLIFER Member=U?
+Change Component Footprint: Designator=C1 Old Footprint=CAP_C330C_MR_X7R_KEM New Footprint=CAP_RCER71H104K0A2H03B
+Change Component Footprint: Designator=C4 Old Footprint=CAP_C330C_MR_X7R_KEM New Footprint=CAP_RCER71H104K0A2H03B
+Change Component Footprint: Designator=C6 Old Footprint=CAP_C330C_MR_X7R_KEM New Footprint=CAP_RCER71H104K0A2H03B
+Change Component Comment : Designator=C1 Old Comment=C330C105K5R5TA7301 New Comment=RCER71H104K0A2H03B
+Change Component Comment : Designator=C4 Old Comment=C330C105K5R5TA7301 New Comment=RCER71H104K0A2H03B
+Change Component Comment : Designator=C6 Old Comment=C330C105K5R5TA7301 New Comment=RCER71H104K0A2H03B
+Change Component Designator: OldDesignator=C7 NewDesignator=C?
+Change Component Designator: OldDesignator=C9 NewDesignator=C?
+Change Component Designator: OldDesignator=C10 NewDesignator=C?
+Change Component Designator: OldDesignator=C11 NewDesignator=C?
+Change Component Designator: OldDesignator=C12 NewDesignator=C?
+Change Component Designator: OldDesignator=C15 NewDesignator=C?
+Change Component Designator: OldDesignator=C16 NewDesignator=C?
+Change Component Designator: OldDesignator=C? NewDesignator=C8
+Change Component Designator: OldDesignator=J? NewDesignator=J3
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Change component parameters: Designator = "C1" ("C1"); Footprint = "CAP_C330C_MR_X7R_KEM"; UniqueID = "\GHIBOWDP" ("\GHIBOWDP")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "RCER71H104K0A2H03B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C4" ("C4"); Footprint = "CAP_C330C_MR_X7R_KEM"; UniqueID = "\FIBQTJSO" ("\FIBQTJSO")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "RCER71H104K0A2H03B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C6" ("C6"); Footprint = "CAP_C330C_MR_X7R_KEM"; UniqueID = "\SHZRAUHT" ("\SHZRAUHT")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "RCER71H104K0A2H03B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C13(CAP_RCER71H104K0A2H03B)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "RCER71H104K0A2H03B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C14(CAP_RCER71H104K0A2H03B)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "RCER71H104K0A2H03B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Add Component: Footprint Not Found AXIAL-0.1-RES
+Added Pin To Net: NetName=MixertoAmplifer_I Pin=C13-1
+Added Pin To Net: NetName=GND Pin=C13-2
+Added Pin To Net: NetName=MixertoAmplifer_Q Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=NetC?_P Pin=C?-P
+Add Pin To Net: Unknown Pin: Pin I1-1
+Add Pin To Net: Unknown Pin: Pin I1-2
+Add Pin To Net: Unknown Pin: Pin LO_signal1-1
+Add Pin To Net: Unknown Pin: Pin LO_signal1-2
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R3-2
+Add Pin To Net: Unknown Pin: Pin R4-1
+Add Pin To Net: Unknown Pin: Pin R5-1
+Add Pin To Net: Unknown Pin: Pin R5-2
+Add Pin To Net: Unknown Pin: Pin R6-1
+Add Pin To Net: Unknown Pin: Pin R6-2
+Add Pin To Net: Unknown Pin: Pin R7-1
+Add Pin To Net: Unknown Pin: Pin R7-2
+Add Pin To Net: Unknown Pin: Pin R8-1
+Add Pin To Net: Unknown Pin: Pin R8-2
+Add Pin To Net: Unknown Pin: Pin R9-1
+Add Pin To Net: Unknown Pin: Pin R9-2
+Add Pin To Net: Unknown Pin: Pin R10-1
+Add Pin To Net: Unknown Pin: Pin R10-2
+Add Pin To Net: Unknown Pin: Pin RF_Signal1-1
+Add Pin To Net: Unknown Pin: Pin RF_Signal1-2
+Add Pin To Net: Unknown Pin: Pin Rg4-1
+Added Pin To Net: NetName=Low_Pass_0Deg Pin=U1-3
+Add Pin To Net: Unknown Pin: Pin V1-1
+Add Pin To Net: Unknown Pin: Pin V1-2
+Added Pin To Net: NetName=NetC8_P Pin=C8-P
+Added Pin To Net: NetName=NetC8_P Pin=U1-1
+Added Net: Name=NetC8_P
+Add Net: Net with name "NetC?_P" already exists
+Add Net: Net with name "NetC?_P" already exists
+Added Pin To Net: NetName=NetRg1_1 Pin=U1-2
+Added Net: Name=NetRg1_1
+Added Pin To Net: NetName=NetRg3_1 Pin=U1-6
+Added Net: Name=NetRg3_1
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C13 RCER71H104K0A2H03B
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C14 RCER71H104K0A2H03B
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C? K103K10X7RF53L2
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component C? ECA1CM100I
+Add Class Member: Failed to add class member : Component R3 DC Bias Res
+Add Class Member: Failed to add class member : Component R4 DC Bias Res
+Add Class Member: Failed to add class member : Component R5 DC Bias Res
+Add Class Member: Failed to add class member : Component R6 DC Bias Res
+Add Class Member: Failed to add class member : Component R7 DC Bias Res
+Add Class Member: Failed to add class member : Component R8 DC Bias Res
+Add Class Member: Failed to add class member : Component R9 DC Bias Res
+Add Class Member: Failed to add class member : Component R10 DC Bias Res
+Add Class Member: Failed to add class member : Component Rg1 Res1
+Add Class Member: Failed to add class member : Component Rg2 Res1
+Add Class Member: Failed to add class member : Component Rg3 Res1
+Add Class Member: Failed to add class member : Component Rg4 Res1
+Added Member To Class: ClassName=mahirAMPLIFER Member=Component U1 LT1638CN8#PBF
