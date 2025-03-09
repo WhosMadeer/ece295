@@ -135,7 +135,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document6]
-DocumentPath=..\..\..\..\..\..\Downloads\BRC1608TR50M6\PCB1.PcbDoc
+DocumentPath=PCB1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -186,7 +186,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document9]
-DocumentPath=..\M2 Schematics\Imported amplifer_with_LT1638\mahirAMPLIFER.SchDoc
+DocumentPath=mahirAMPLIFER.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0

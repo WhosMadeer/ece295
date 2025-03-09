@@ -118,7 +118,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=mahirAMPLIFER.SchDoc
+DocumentPath=..\..\M1 Schematics\mahirAMPLIFER.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
