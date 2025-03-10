@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=NetR27_1 Pin=Rs1-1
+Removed Pin From Net: NetName=NetR26_2 Pin=Rs2-1
+Removed Pin From Net: NetName=GND Pin=U1-1
+Removed Pin From Net: NetName=GND Pin=U1-2
+Removed Pin From Net: NetName=GND Pin=U1-3
+Removed Pin From Net: NetName=GND Pin=U1-4
+Removed Pin From Net: NetName=GND Pin=U1-12
+Removed Pin From Net: NetName=GND Pin=U1-13
+Removed Pin From Net: NetName=GND Pin=U1-14
+Added Pin To Net: NetName=NetJ3_2 Pin=R36-1
+Added Pin To Net: NetName=NetJ3_2 Pin=R38-1
+Added Pin To Net: NetName=NetJ3_2 Pin=R39-1
+Added Pin To Net: NetName=NetJ3_2 Pin=R40-1
+Added Pin To Net: NetName=NetR26_2 Pin=Rs1-1
+Added Pin To Net: NetName=NetR27_1 Pin=Rs2-1
+Added Pin To Net: NetName=NetJ3_2 Pin=U1-4
+Added Pin To Net: NetName=NetJ3_2 Pin=U3-8
+Change Net Name : Old Net Name=NetJ2_1 New Net Name=TXEN
+Change Net Name : Old Net Name=NetJ2_2 New Net Name=LO_F1_90
+Change Net Name : Old Net Name=NetJ2_3 New Net Name=LO_FI_0
+Change Net Name : Old Net Name=NetJ3_2 New Net Name=5V
+Added Pin To Net: NetName=RX_I Pin=C22-N
+Added Pin To Net: NetName=RX_I Pin=J3-1
+Added Net: Name=RX_I
+Added Pin To Net: NetName=RX_Q Pin=C8-N
+Added Pin To Net: NetName=RX_Q Pin=J3-3
+Added Net: Name=RX_Q
