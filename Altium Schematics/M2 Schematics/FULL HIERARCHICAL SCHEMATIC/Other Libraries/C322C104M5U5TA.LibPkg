@@ -50,7 +50,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\..\..\..\..\..\..\Downloads\ECA1CM100I\CAPPRD250W50D500H1100.PcbLib
+DocumentPath=..\..\Downloads\C322C104M5U5TA\AltiumDesigner\Project Outputs for C322C104M5U5TA\C322C104M5U5TA\C322C104M5U5TA.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -67,7 +67,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document2]
-DocumentPath=..\..\..\..\..\..\..\Downloads\ECA1CM100I\ECA1CM100I.SchLib
+DocumentPath=..\..\Downloads\C322C104M5U5TA\AltiumDesigner\Project Outputs for C322C104M5U5TA\C322C104M5U5TA\C322C104M5U5TA.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -84,7 +84,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [SearchPath1]
-Path=C:\Users\karen\Downloads\ECA1CM100I\*.*
+Path=C:\Users\karen\Downloads\C322C104M5U5TA\AltiumDesigner\Project Outputs for C322C104M5U5TA\C322C104M5U5TA\*.*
 IncludeSubFolders=1
 
 [OutputGroup1]
