@@ -1,0 +1,98 @@
+# Created by Ultra Librarian 8.3.366 Copyright © 1999-2024
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "UWB1UWB2_COC")
+Pad (Name "1") (Location 32.5, 60) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 37, 33) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 32.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 37, 33) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "3") (Location 32.5, -60) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 37, 33) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "6") (Location -32.5, 60) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 37, 33) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "5") (Location -32.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 37, 33) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "4") (Location -32.5, -60) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 37, 33) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 6) (Start -72.5, 90) (End -72.5, -90) (Layer Mechanical15) 
+Line (Width 6) (Start -72.5, -90) (End 72.5, -90) (Layer Mechanical15) 
+Line (Width 6) (Start 72.5, -90) (End 72.5, 90) (Layer Mechanical15) 
+Line (Width 6) (Start 72.5, 90) (End -72.5, 90) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-72.5, 90)
+Point (-72.5, -90)
+Point (72.5, -90)
+Point (72.5, 90)
+EndPolygon
+Line (Width 6) (Start -4.03205086, -85) (End 4.03205086, -85) (Layer TopOverlay) 
+Line (Width 6) (Start -67.5, -85) (End -60.96794914, -85) (Layer TopOverlay) 
+Line (Width 6) (Start 67.5, -85) (End 67.5, 85) (Layer TopOverlay) 
+Line (Width 6) (Start 67.5, 85) (End 60.96794914, 85) (Layer TopOverlay) 
+Line (Width 6) (Start -67.5, 85) (End -67.5, -85) (Layer TopOverlay) 
+Line (Width 6) (Start 4.03205086, 85) (End -4.03205086, 85) (Layer TopOverlay) 
+Line (Width 6) (Start 60.96794914, -85) (End 67.5, -85) (Layer TopOverlay) 
+Line (Width 6) (Start -60.96794914, 85) (End -67.5, 85) (Layer TopOverlay) 
+Arc (Width 20) (Radius 15) (Location 92.5, 60) (StartAngle 0) (EndAngle 360) (Layer TopOverlay) 
+Line (Width 1) (Start -62.5, -80) (End 62.5, -80) (Layer Mechanical13) 
+Line (Width 1) (Start 62.5, -80) (End 62.5, 80) (Layer Mechanical13) 
+Line (Width 1) (Start 62.5, 80) (End -62.5, 80) (Layer Mechanical13) 
+Line (Width 1) (Start -62.5, 80) (End -62.5, -80) (Layer Mechanical13) 
+Arc (Width 20) (Radius 15) (Location 32.5, 135) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Arc (Width 20) (Radius 15) (Location 92.5, 60) (StartAngle 0) (EndAngle 360) (Layer BottomOverlay) 
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "UWB1-85EC") (PartCount 1) (DesPrefix "XMER?")
+Pin (Location 300, -200) (Rotation 180) (PinType Passive) (Length 300) (Width 0) (Designator Visible "1") (Name Hidden "1") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location 300, -100) (Rotation 180) (PinType Passive) (Length 300) (Width 0) (Designator Visible "2") (Name Hidden "2") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location 300, 0) (Rotation 180) (PinType Passive) (Length 300) (Width 0) (Designator Visible "3") (Name Hidden "3") (PinSwap 0) (PartSwap 0) (PinSeq 3) (Part 1)
+Pin (Location 800, -100) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "4") (Name Hidden "4") (PinSwap 0) (PartSwap 0) (PinSeq 4) (Part 1)
+Pin (Location 800, 0) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "5") (Name Hidden "5") (PinSwap 0) (PartSwap 0) (PinSeq 5) (Part 1)
+Pin (Location 800, -200) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "6") (Name Hidden "6") (PinSwap 0) (PartSwap 0) (PinSeq 6) (Part 1)
+Line (Width 5) (Start 300, -100) (End 500, -100) (Part 1)
+Line (Width 5) (Start 350, -100) (End 350, -150) (Part 1)
+Line (Width 5) (Start 450, -100) (End 450, -200) (Part 1)
+Line (Width 5) (Start 450, -200) (End 500, -200) (Part 1)
+Line (Width 5) (Start 700, -200) (End 750, -200) (Part 1)
+Line (Width 5) (Start 750, -200) (End 750, 0) (Part 1)
+Line (Width 5) (Start 300, 0) (End 500, 0) (Part 1)
+Line (Width 5) (Start 700, 0) (End 800, 0) (Part 1)
+Line (Width 5) (Start 340, -170) (End 360, -170) (Part 1)
+Line (Width 5) (Start 330, -160) (End 370, -160) (Part 1)
+Line (Width 5) (Start 380, -150) (End 320, -150) (Part 1)
+Line (Width 5) (Start 700, -100) (End 740, -100) (Part 1)
+Line (Width 5) (Start 760, -100) (End 800, -100) (Part 1)
+Rectangle (Width 5) (Start 300, -300) (End 800, 100) (Part 1)
+Arc (Width 5) (Radius 25) (Location 525, -100) (StartAngle 0) (EndAngle 180) (Part 1)
+Arc (Width 5) (Radius 25) (Location 575, -100) (StartAngle 0) (EndAngle 180) (Part 1)
+Arc (Width 5) (Radius 25) (Location 625, -100) (StartAngle 0) (EndAngle 180) (Part 1)
+Arc (Width 5) (Radius 25) (Location 675, -100) (StartAngle 0) (EndAngle 180) (Part 1)
+Arc (Width 5) (Radius 25) (Location 525, -200) (StartAngle 0) (EndAngle 180) (Part 1)
+Arc (Width 5) (Radius 25) (Location 575, -200) (StartAngle 0) (EndAngle 180) (Part 1)
+Arc (Width 5) (Radius 25) (Location 625, -200) (StartAngle 0) (EndAngle 180) (Part 1)
+Arc (Width 5) (Radius 25) (Location 675, -200) (StartAngle 0) (EndAngle 180) (Part 1)
+Arc (Width 5) (Radius 25) (Location 525, 0) (StartAngle 180) (EndAngle 360) (Part 1)
+Arc (Width 5) (Radius 25) (Location 575, 0) (StartAngle 180) (EndAngle 360) (Part 1)
+Arc (Width 5) (Radius 25) (Location 625, 0) (StartAngle 180) (EndAngle 360) (Part 1)
+Arc (Width 5) (Radius 25) (Location 675, 0) (StartAngle 180) (EndAngle 360) (Part 1)
+Arc (Width 5) (Radius 10) (Location 750, -100) (StartAngle 0) (EndAngle 180) (Part 1)
+Arc (Width 10) (Radius 5) (Location 750, 0) (StartAngle 270) (EndAngle 270) (Part 1)
+Arc (Width 10) (Radius 5) (Location 350, -100) (StartAngle 270) (EndAngle 270) (Part 1)
+Arc (Width 10) (Radius 5) (Location 450, -100) (StartAngle 270) (EndAngle 270) (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Coilcraft") (Part 1)
+Parameter (Name "RefDes") (Location 550, 300) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Parameter (Name "Type") (Location 550, 200) (Height 82) (Rotation 0) (Justification Center) (Value "Type") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Footprint (Name "UWB1UWB2_COC")
+EndComponent
+EndComponents
