@@ -50,7 +50,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=CAPPRD250W50D500H1100.PcbLib
+DocumentPath=K103K10X7RF53L2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -67,7 +67,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document2]
-DocumentPath=ECA1CM100I.SchLib
+DocumentPath=K103K10X7RF53L2.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -84,7 +84,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [SearchPath1]
-Path=C:\Users\karen\Downloads\ECA1CM100I1\*.*
+Path=C:\Users\karen\Downloads\K103K10X7RF53L2\AltiumDesigner\Project Outputs for K103K10X7RF53L2\K103K10X7RF53L21\*.*
 IncludeSubFolders=1
 
 [OutputGroup1]
