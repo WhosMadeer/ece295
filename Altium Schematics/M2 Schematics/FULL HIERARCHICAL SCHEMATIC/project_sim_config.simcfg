@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Settings>
+    <Version>1.1</Version>
+    <Affect>Project</Affect>
+  </Settings>
+  <Config />
+  <Documents>
+    <DocumentConfig>
+      <Name>FULL HIERARCHICAL SCHEMATIC.SchDoc</Name>
+      <Id>JIPGIJXJ</Id>
+      <Config />
+      <Results />
+    </DocumentConfig>
+    <DocumentConfig>
+      <Name>SeriesSwitch.SchDoc</Name>
+      <Id>UHRTSTQR</Id>
+      <Config />
+      <Results />
+    </DocumentConfig>
+    <DocumentConfig>
+      <Name>Limiter.SchDoc</Name>
+      <Id>MWLTPUQX</Id>
+      <Config />
+      <Results />
+    </DocumentConfig>
+    <DocumentConfig>
+      <Name>Bandpass.SchDoc</Name>
+      <Id>QEIOCUZE</Id>
+      <Config />
+      <Results />
+    </DocumentConfig>
+    <DocumentConfig>
+      <Name>Quadrature Mixers.SchDoc</Name>
+      <Id>SWACDPLJ</Id>
+      <Config />
+      <Results />
+    </DocumentConfig>
+    <DocumentConfig>
+      <Name>Differential Opamp.SchDoc</Name>
+      <Id>FIVSSSLS</Id>
+      <Config />
+      <Results />
+    </DocumentConfig>
+    <DocumentConfig>
+      <Name>Lowpass Amplifier.SchDoc</Name>
+      <Id>MKADRKRO</Id>
+      <Config />
+      <Results />
+    </DocumentConfig>
+  </Documents>
+  <Results />
+</ProjectConfig>
