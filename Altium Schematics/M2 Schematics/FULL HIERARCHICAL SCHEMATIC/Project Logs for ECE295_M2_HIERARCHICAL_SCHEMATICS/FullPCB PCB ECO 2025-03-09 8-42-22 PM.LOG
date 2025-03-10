@@ -1,0 +1,210 @@
+Added Component: Designator=P1(TO220AB_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P2(TO220AB_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P3(TO220AB_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P4(TO220AB_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P5(TO220AB_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P6(TO220AB_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P7(TO220AB_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P8(TO220AB_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P9(TO220AB_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P10(TO220AB_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P11(TO220AB_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P12(TO220AB_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P13(TO220AB_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P14(TO220AB_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P15(TO220AB_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P16(TO220AB_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R8(RES_TNPW0201_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R9(RES_TNPW0201_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R12(RES_TNPW0201_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R18(RES_TNPW0201_VIS)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=T2(UWB1UWB2_COC)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Coilcraft"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Component: Designator=T3(UWB1UWB2_COC)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Coilcraft"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Component: Designator=T4(UWB1UWB2_COC)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Coilcraft"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Component: Designator=U1(PW14_TEX)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Linear"; VariantName = "[No Variations]"
+Added Component: Designator=werT1(UWB1UWB2_COC)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Coilcraft"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin Antenna-1
+Add Pin To Net: Unknown Pin: Pin Antenna-2
+Added Pin To Net: NetName=NetP1_1 Pin=P1-1
+Added Pin To Net: NetName=NetP1_2 Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P1-3
+Added Pin To Net: NetName=NetP2_1 Pin=P2-1
+Added Pin To Net: NetName=NetC19_1 Pin=P2-2
+Added Pin To Net: NetName=NetP2_3 Pin=P2-3
+Added Pin To Net: NetName=NetJ2_2 Pin=P3-1
+Added Pin To Net: NetName=NetC20_1 Pin=P3-2
+Added Pin To Net: NetName=NetP2_3 Pin=P3-3
+Added Pin To Net: NetName=NetJ2_2 Pin=P4-1
+Added Pin To Net: NetName=NetC19_1 Pin=P4-2
+Added Pin To Net: NetName=NetP4_3 Pin=P4-3
+Added Pin To Net: NetName=NetP2_1 Pin=P5-1
+Added Pin To Net: NetName=NetC20_1 Pin=P5-2
+Added Pin To Net: NetName=NetP4_3 Pin=P5-3
+Added Pin To Net: NetName=NetP6_1 Pin=P6-1
+Added Pin To Net: NetName=NetP2_3 Pin=P6-2
+Added Pin To Net: NetName=NetP6_3 Pin=P6-3
+Added Pin To Net: NetName=NetP7_1 Pin=P7-1
+Added Pin To Net: NetName=NetP4_3 Pin=P7-2
+Added Pin To Net: NetName=NetP6_3 Pin=P7-3
+Added Pin To Net: NetName=NetP1_1 Pin=P8-1
+Added Pin To Net: NetName=NetP6_3 Pin=P8-2
+Added Pin To Net: NetName=GND Pin=P8-3
+Added Pin To Net: NetName=NetP9_1 Pin=P9-1
+Added Pin To Net: NetName=NetP9_2 Pin=P9-2
+Added Pin To Net: NetName=GND Pin=P9-3
+Added Pin To Net: NetName=NetP10_1 Pin=P10-1
+Added Pin To Net: NetName=NetC17_1 Pin=P10-2
+Added Pin To Net: NetName=NetP10_3 Pin=P10-3
+Added Pin To Net: NetName=NetJ2_3 Pin=P11-1
+Added Pin To Net: NetName=NetC18_1 Pin=P11-2
+Added Pin To Net: NetName=NetP10_3 Pin=P11-3
+Added Pin To Net: NetName=NetJ2_3 Pin=P12-1
+Added Pin To Net: NetName=NetC17_1 Pin=P12-2
+Added Pin To Net: NetName=NetP12_3 Pin=P12-3
+Added Pin To Net: NetName=NetP10_1 Pin=P13-1
+Added Pin To Net: NetName=NetC18_1 Pin=P13-2
+Added Pin To Net: NetName=NetP12_3 Pin=P13-3
+Added Pin To Net: NetName=NetP14_1 Pin=P14-1
+Added Pin To Net: NetName=NetP10_3 Pin=P14-2
+Added Pin To Net: NetName=NetP14_3 Pin=P14-3
+Added Pin To Net: NetName=NetP15_1 Pin=P15-1
+Added Pin To Net: NetName=NetP12_3 Pin=P15-2
+Added Pin To Net: NetName=NetP14_3 Pin=P15-3
+Added Pin To Net: NetName=NetP9_1 Pin=P16-1
+Added Pin To Net: NetName=NetP14_3 Pin=P16-2
+Added Pin To Net: NetName=GND Pin=P16-3
+Added Pin To Net: NetName=NetC11_2 Pin=R8-1
+Added Pin To Net: NetName=NetP6_1 Pin=R8-2
+Added Pin To Net: NetName=NetR9_1 Pin=R9-1
+Added Pin To Net: NetName=NetJ2_2 Pin=R9-2
+Added Pin To Net: NetName=NetR12_1 Pin=R12-1
+Added Pin To Net: NetName=NetJ2_3 Pin=R12-2
+Added Pin To Net: NetName=NetC11_2 Pin=R18-1
+Added Pin To Net: NetName=NetP14_1 Pin=R18-2
+Added Pin To Net: NetName=GND Pin=T2-2
+Added Pin To Net: NetName=NetP6_1 Pin=T2-3
+Added Pin To Net: NetName=GND Pin=T2-4
+Added Pin To Net: NetName=NetP7_1 Pin=T2-5
+Added Pin To Net: NetName=GND Pin=T3-2
+Added Pin To Net: NetName=NetR12_1 Pin=T3-3
+Added Pin To Net: NetName=GND Pin=T3-4
+Added Pin To Net: NetName=NetP10_1 Pin=T3-5
+Added Pin To Net: NetName=GND Pin=T4-2
+Added Pin To Net: NetName=NetP14_1 Pin=T4-3
+Added Pin To Net: NetName=GND Pin=T4-4
+Added Pin To Net: NetName=NetP15_1 Pin=T4-5
+Added Pin To Net: NetName=NetR22_2 Pin=U1-5
+Added Pin To Net: NetName=NetR20_2 Pin=U1-6
+Added Pin To Net: NetName=NetR26_2 Pin=U1-7
+Added Pin To Net: NetName=NetR27_1 Pin=U1-8
+Added Pin To Net: NetName=NetR27_2 Pin=U1-9
+Added Pin To Net: NetName=NetR28_2 Pin=U1-10
+Added Pin To Net: NetName=GND Pin=U1-11
+Added Pin To Net: NetName=GND Pin=werT1-2
+Added Pin To Net: NetName=NetR9_1 Pin=werT1-3
+Added Pin To Net: NetName=GND Pin=werT1-4
+Added Pin To Net: NetName=NetP2_1 Pin=werT1-5
+Add Class Member: Failed to add class member : Component *1 Component_1
+Add Class Member: Failed to add class member : Component *2 Component_1
+Add Class Member: Failed to add class member : Component *3 Component_1
+Add Class Member: Failed to add class member : Component Antenna Resistor
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component P1 IRF9640PBF
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component P2 IRF9640PBF
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component P3 IRF9640PBF
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component P4 IRF9640PBF
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component P5 IRF9640PBF
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component P6 IRF9640PBF
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component P7 IRF9640PBF
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component P8 IRF9640PBF
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component P9 IRF9640PBF
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component P10 IRF9640PBF
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component P11 IRF9640PBF
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component P12 IRF9640PBF
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component P13 IRF9640PBF
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component P14 IRF9640PBF
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component P15 IRF9640PBF
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component P16 IRF9640PBF
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component R8 TNPW020125R0BEED
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component R9 TNPW020125R0BEED
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component R12 TNPW020125R0BEED
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component R18 TNPW020125R0BEED
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component T2 UWB1-85EC
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component T3 UWB1-85EC
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component T4 UWB1-85EC
+Added Member To Class: ClassName=U_Differential Opamp Member=Component U1 OPA4863PWR
+Added Member To Class: ClassName=U_Quadrature Mixers Member=Component werT1 UWB1-85EC
