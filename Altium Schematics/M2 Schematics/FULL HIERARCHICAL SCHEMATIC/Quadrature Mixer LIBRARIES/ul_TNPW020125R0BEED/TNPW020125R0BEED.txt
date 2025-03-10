@@ -1,0 +1,157 @@
+# Created by Ultra Librarian 8.3.366 Copyright © 1999-2024
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "RES_TNPW0201_VIS")
+Pad (Name "1") (Location -16.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 21, 14) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 16.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 21, 14) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer KeepOutLayer) 
+Point (-4, 7)
+Point (4, 7)
+Point (4, -7)
+Point (-4, -7)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-4, 5)
+Point (4, 5)
+Point (4, -5)
+Point (-4, -5)
+EndPolygon
+Line (Width 6) (Start -37, -17) (End -37, 17) (Layer Mechanical15) 
+Line (Width 6) (Start -37, 17) (End 37, 17) (Layer Mechanical15) 
+Line (Width 6) (Start 37, 17) (End 37, -17) (Layer Mechanical15) 
+Line (Width 6) (Start 37, -17) (End -37, -17) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-37, -17)
+Point (-37, 17)
+Point (37, 17)
+Point (37, -17)
+EndPolygon
+Line (Width 1) (Start -6, -7) (End -6, 7) (Layer Mechanical13) 
+Line (Width 1) (Start -6, 7) (End -13, 7) (Layer Mechanical13) 
+Line (Width 1) (Start -13, 7) (End -13, -7) (Layer Mechanical13) 
+Line (Width 1) (Start -13, -7) (End -6, -7) (Layer Mechanical13) 
+Line (Width 1) (Start 6, 7) (End 6, -7) (Layer Mechanical13) 
+Line (Width 1) (Start 6, -7) (End 13, -7) (Layer Mechanical13) 
+Line (Width 1) (Start 13, -7) (End 13, 7) (Layer Mechanical13) 
+Line (Width 1) (Start 13, 7) (End 6, 7) (Layer Mechanical13) 
+Line (Width 1) (Start -13, -7) (End 13, -7) (Layer Mechanical13) 
+Line (Width 1) (Start 13, -7) (End 13, 7) (Layer Mechanical13) 
+Line (Width 1) (Start 13, 7) (End -13, 7) (Layer Mechanical13) 
+Line (Width 1) (Start -13, 7) (End -13, -7) (Layer Mechanical13) 
+Step (Name RES_TNPW0201_VIS.step)
+EndFootprint
+
+Footprint (Name "RES_TNPW0201_VIS-M")
+Pad (Name "1") (Location -20.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 29, 16) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 20.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 29, 16) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer KeepOutLayer) 
+Point (-4, 7)
+Point (4, 7)
+Point (4, -7)
+Point (-4, -7)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-4, 5)
+Point (4, 5)
+Point (4, -5)
+Point (-4, -5)
+EndPolygon
+Line (Width 6) (Start -55, -28) (End -55, 28) (Layer Mechanical15) 
+Line (Width 6) (Start -55, 28) (End 55, 28) (Layer Mechanical15) 
+Line (Width 6) (Start 55, 28) (End 55, -28) (Layer Mechanical15) 
+Line (Width 6) (Start 55, -28) (End -55, -28) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-55, -28)
+Point (-55, 28)
+Point (55, 28)
+Point (55, -28)
+EndPolygon
+Line (Width 1) (Start -6, -7) (End -6, 7) (Layer Mechanical13) 
+Line (Width 1) (Start -6, 7) (End -13, 7) (Layer Mechanical13) 
+Line (Width 1) (Start -13, 7) (End -13, -7) (Layer Mechanical13) 
+Line (Width 1) (Start -13, -7) (End -6, -7) (Layer Mechanical13) 
+Line (Width 1) (Start 6, 7) (End 6, -7) (Layer Mechanical13) 
+Line (Width 1) (Start 6, -7) (End 13, -7) (Layer Mechanical13) 
+Line (Width 1) (Start 13, -7) (End 13, 7) (Layer Mechanical13) 
+Line (Width 1) (Start 13, 7) (End 6, 7) (Layer Mechanical13) 
+Line (Width 1) (Start -13, -7) (End 13, -7) (Layer Mechanical13) 
+Line (Width 1) (Start 13, -7) (End 13, 7) (Layer Mechanical13) 
+Line (Width 1) (Start 13, 7) (End -13, 7) (Layer Mechanical13) 
+Line (Width 1) (Start -13, 7) (End -13, -7) (Layer Mechanical13) 
+Step (Name RES_TNPW0201_VIS.step)
+EndFootprint
+
+Footprint (Name "RES_TNPW0201_VIS-L")
+Pad (Name "1") (Location -12.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 13, 12) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 12.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 13, 12) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer KeepOutLayer) 
+Point (-4, 7)
+Point (4, 7)
+Point (4, -7)
+Point (-4, -7)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-4, 5)
+Point (4, 5)
+Point (4, -5)
+Point (-4, -5)
+EndPolygon
+Line (Width 6) (Start -23, -10) (End -23, 10) (Layer Mechanical15) 
+Line (Width 6) (Start -23, 10) (End 23, 10) (Layer Mechanical15) 
+Line (Width 6) (Start 23, 10) (End 23, -10) (Layer Mechanical15) 
+Line (Width 6) (Start 23, -10) (End -23, -10) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-23, -10)
+Point (-23, 10)
+Point (23, 10)
+Point (23, -10)
+EndPolygon
+Line (Width 1) (Start -6, -7) (End -6, 7) (Layer Mechanical13) 
+Line (Width 1) (Start -6, 7) (End -13, 7) (Layer Mechanical13) 
+Line (Width 1) (Start -13, 7) (End -13, -7) (Layer Mechanical13) 
+Line (Width 1) (Start -13, -7) (End -6, -7) (Layer Mechanical13) 
+Line (Width 1) (Start 6, 7) (End 6, -7) (Layer Mechanical13) 
+Line (Width 1) (Start 6, -7) (End 13, -7) (Layer Mechanical13) 
+Line (Width 1) (Start 13, -7) (End 13, 7) (Layer Mechanical13) 
+Line (Width 1) (Start 13, 7) (End 6, 7) (Layer Mechanical13) 
+Line (Width 1) (Start -13, -7) (End 13, -7) (Layer Mechanical13) 
+Line (Width 1) (Start 13, -7) (End 13, 7) (Layer Mechanical13) 
+Line (Width 1) (Start 13, 7) (End -13, 7) (Layer Mechanical13) 
+Line (Width 1) (Start -13, 7) (End -13, -7) (Layer Mechanical13) 
+Step (Name RES_TNPW0201_VIS.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "TNPW020125R0BEED") (PartCount 1) (DesPrefix "R?")
+Pin (Location 100, 0) (Rotation 180) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "1") (Name Visible "1") (PinSwap 1) (PartSwap 1) (PinSeq 1) (Part 1)
+Pin (Location 400, 0) (Rotation 0) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "2") (Name Hidden "2") (PinSwap 1) (PartSwap 1) (PinSeq 2) (Part 1)
+Line (Width 8) (Start 125, 50) (End 175, -50) (Part 1)
+Line (Width 8) (Start 175, -50) (End 225, 50) (Part 1)
+Line (Width 8) (Start 225, 50) (End 275, -50) (Part 1)
+Line (Width 8) (Start 275, -50) (End 325, 50) (Part 1)
+Line (Width 8) (Start 325, 50) (End 375, -50) (Part 1)
+Line (Width 8) (Start 100, 0) (End 125, 50) (Part 1)
+Line (Width 8) (Start 375, -50) (End 400, 0) (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Vishay") (Part 1)
+Parameter (Name "Type") (Location 250, -275) (Height 137) (Rotation 0) (Justification Center) (Value "") (Part 1)
+Parameter (Name "RefDes") (Location 225, 150) (Height 137) (Rotation 0) (Justification Center) (Value "") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Footprint (Name "RES_TNPW0201_VIS")
+EndComponent
+EndComponents
