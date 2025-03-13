@@ -1,0 +1,68 @@
+Removed Pin From Net: NetName=NetC4_1 Pin=C4-1
+Removed Pin From Net: NetName=NetC4_2 Pin=C4-2
+Removed Pin From Net: NetName=NetC5_1 Pin=C5-1
+Removed Pin From Net: NetName=NetC5_2 Pin=C5-2
+Removed Pin From Net: NetName=NetC6_1 Pin=C6-1
+Removed Pin From Net: NetName=NetC6_2 Pin=C6-2
+Removed Pin From Net: NetName=NetC7_1 Pin=C7-1
+Removed Pin From Net: NetName=NetC7_2 Pin=C7-2
+Change Component Footprint: Designator=C4 Old Footprint=FP-GRM188-0_1-e0_2_0_55-IPC_A New Footprint=CAPPRD250W50D500H1100
+Change Component Footprint: Designator=C5 Old Footprint=FP-GRM188-0_1-e0_2_0_55-IPC_A New Footprint=CAPPRD250W50D500H1100
+Change Component Footprint: Designator=C6 Old Footprint=FP-GRM188-0_1-e0_2_0_55-IPC_A New Footprint=CAPPRD250W50D500H1100
+Change Component Footprint: Designator=C7 Old Footprint=FP-GRM188-0_1-e0_2_0_55-IPC_A New Footprint=CAPPRD250W50D500H1100
+Change Component Comment : Designator=C4 Old Comment=GRM188R60J106ME47D New Comment=ECA1CM100I
+Change Component Comment : Designator=C5 Old Comment=GRM188R60J106ME47D New Comment=ECA1CM100I
+Change Component Comment : Designator=C6 Old Comment=GRM188R60J106ME47D New Comment=ECA1CM100I
+Change Component Comment : Designator=C7 Old Comment=GRM188R60J106ME47D New Comment=ECA1CM100I
+Change Managed Component Library Link : Designator=C4 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=3F1FDB09-9931-43B7-B80F-88673FF926CD New ItemGUID= Old RevisionGUID=937773BC-2271-489F-837A-E58975DBF117 New RevisionGUID=
+Change Managed Component Library Link : Designator=C5 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=3F1FDB09-9931-43B7-B80F-88673FF926CD New ItemGUID= Old RevisionGUID=937773BC-2271-489F-837A-E58975DBF117 New RevisionGUID=
+Change Managed Component Library Link : Designator=C6 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=3F1FDB09-9931-43B7-B80F-88673FF926CD New ItemGUID= Old RevisionGUID=937773BC-2271-489F-837A-E58975DBF117 New RevisionGUID=
+Change Managed Component Library Link : Designator=C7 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=3F1FDB09-9931-43B7-B80F-88673FF926CD New ItemGUID= Old RevisionGUID=937773BC-2271-489F-837A-E58975DBF117 New RevisionGUID=
+Change component parameters: Designator = "C4" ("C4"); Footprint = "FP-GRM188-0_1-e0_2_0_55-IPC_A"; UniqueID = "\YCGCPXHF\TKTCRAXQ" ("\YCGCPXHF\TKTCRAXQ")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key_Part_Number"; Value = "P19513TB-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "ECA1CM100I"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "RADIAL-2 Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C5" ("C5"); Footprint = "FP-GRM188-0_1-e0_2_0_55-IPC_A"; UniqueID = "\YCGCPXHF\TESCIEJR" ("\YCGCPXHF\TESCIEJR")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key_Part_Number"; Value = "P19513TB-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "ECA1CM100I"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "RADIAL-2 Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C6" ("C6"); Footprint = "FP-GRM188-0_1-e0_2_0_55-IPC_A"; UniqueID = "\YCGCPXHF\SHIGWQAA" ("\YCGCPXHF\SHIGWQAA")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key_Part_Number"; Value = "P19513TB-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "ECA1CM100I"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "RADIAL-2 Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C7" ("C7"); Footprint = "FP-GRM188-0_1-e0_2_0_55-IPC_A"; UniqueID = "\YCGCPXHF\ZAFFGFIK" ("\YCGCPXHF\ZAFFGFIK")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key_Part_Number"; Value = "P19513TB-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "ECA1CM100I"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "RADIAL-2 Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ECA1CM100I/Panasonic/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC4_2 Pin=C4-N
+Added Pin To Net: NetName=NetC4_1 Pin=C4-P
+Added Pin To Net: NetName=NetC5_2 Pin=C5-N
+Added Pin To Net: NetName=NetC5_1 Pin=C5-P
+Added Pin To Net: NetName=NetC6_2 Pin=C6-N
+Added Pin To Net: NetName=NetC6_1 Pin=C6-P
+Added Pin To Net: NetName=NetC7_2 Pin=C7-N
+Added Pin To Net: NetName=NetC7_1 Pin=C7-P
+Change Net Name : Old Net Name=NetC4_1 New Net Name=NetC4_P
+Change Net Name : Old Net Name=NetC4_2 New Net Name=NetC4_N
+Change Net Name : Old Net Name=NetC5_1 New Net Name=NetC5_P
+Change Net Name : Old Net Name=NetC5_2 New Net Name=NetC5_N
+Change Net Name : Old Net Name=NetC6_1 New Net Name=NetC6_P
+Change Net Name : Old Net Name=NetC6_2 New Net Name=NetC6_N
+Change Net Name : Old Net Name=NetC7_1 New Net Name=NetC7_P
+Change Net Name : Old Net Name=NetC7_2 New Net Name=NetC7_N
