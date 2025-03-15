@@ -1,0 +1,12 @@
+Added Component: Designator=L1(MURATA_LQW21FT2R0M0HL_0)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/LQW21FT2R0M0HL/Murata/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "490-LQW21FT2R0M0HLTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "LQW21FT2R0M0HL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/LQW21FT2R0M0HL/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/LQW21FT2R0M0HL/Murata/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC2A_2 Pin=L1-1
+Added Pin To Net: NetName=NetC1_1 Pin=L1-2
+Added Member To Class: ClassName=U_Bandpass Member=Component L1 MURATA_LQW21FT2R0M0HL
