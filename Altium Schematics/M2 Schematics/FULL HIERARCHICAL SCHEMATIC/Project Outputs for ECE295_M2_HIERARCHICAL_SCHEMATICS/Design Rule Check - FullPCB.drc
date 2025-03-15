@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\khanda71\ece295\Altium Schematics\M2 Schematics\FULL HIERARCHICAL SCHEMATIC\FullPCB.PcbDoc
 Date     : 3/15/2025
-Time     : 11:38:39 AM
+Time     : 12:26:44 PM
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
    Violation between Clearance Constraint: (0.22mm < 0.254mm) Between Pad Q1-1(38.55mm,121.45mm) on Multi-Layer And Pad Q1-2(39.82mm,121.45mm) on Multi-Layer 
@@ -122,4 +122,4 @@ Rule Violations :0
 
 Violations Detected : 71
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
