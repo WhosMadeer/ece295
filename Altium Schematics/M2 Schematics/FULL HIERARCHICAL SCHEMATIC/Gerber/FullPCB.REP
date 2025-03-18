@@ -2,6 +2,27 @@
 FileName = FullPCB.GBR
 AutoAperture = True
 *************************************************************
+Generating : Keep-Out Layer
+      File : FullPCB.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : FullPCB.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D14
+*************************************************************
+
+*************************************************************
 Generating : Bottom Solder
       File : FullPCB.GBS
 
@@ -69,63 +90,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Pad Master
-      File : FullPCB.GPB
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D30
-    D34
-    D37
-    D38
-    D42
-    D46
-    D49
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : FullPCB.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D18
-    D30
-    D34
-    D37
-    D38
-    D42
-    D46
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-*************************************************************
-
-*************************************************************
 Generating : Top Overlay
       File : FullPCB.GTO
 
@@ -156,11 +120,11 @@ Generating : Top Pad Master
 
 
 Used DCodes :
-    D21
+    D22
     D25
     D27
     D30
-    D34
+    D32
     D37
     D38
     D42
@@ -181,14 +145,60 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : FullPCB.GBO
+Generating : Bottom Pad Master
+      File : FullPCB.GPB
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D10
+    D30
+    D32
+    D37
+    D38
+    D42
+    D46
+    D49
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : FullPCB.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D30
+    D32
+    D37
+    D38
+    D42
+    D46
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
 *************************************************************
 
 *************************************************************
@@ -202,11 +212,11 @@ Generating : Top Layer
 
 Used DCodes :
     D18
-    D21
+    D22
     D25
     D27
     D30
-    D34
+    D32
     D37
     D38
     D42
@@ -226,16 +236,6 @@ Used DCodes :
     D57
     D58
     D59
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : FullPCB.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-
-Used DCodes :
 *************************************************************
 
 *************************************************************
@@ -262,6 +262,6 @@ Generating : Drill Guide
 
 
 Used DCodes :
-    D60
+    D61
 *************************************************************
 
