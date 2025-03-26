@@ -149,7 +149,7 @@ print("Ready to start testing!")
 user_prompt()
 
 
-
-scope.write(":CHAN1:")
-
+scope.query(":MEAS:VPP? CHAN1")
+scope.query(":MEAS:VPP? CHAN2")
+time.sleep(5)
 end_program()
