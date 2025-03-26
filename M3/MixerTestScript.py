@@ -26,12 +26,13 @@ def end_program():
     fxngenRF.write("OUTPut2 OFF")
     fxngenLO.write("OUTPut1 OFF")
     fxngenLO.write("OUTPut2 OFF")
-    supply.write("OUTP 0, (@1)")
+    supply.write("OUTP 0, (@2)")
     scope.close()
     fxngenRF.close()
     fxngenLO.close()
     supply.close()
-    sys.exit(1)
+    print("closed connection")
+    exit()
 
 
 # Open instrument connection(s)
@@ -41,14 +42,12 @@ print(rm.list_resources("TCPIP0::?*"))
 
 """Connect to the different devices"""
 supply = rm.open_resource("TCPIP0::192.168.0.251::5025::SOCKET")
-meter = rm.open_resource("TCPIP0::192.168.0.252::5025::SOCKET")
-scope = rm.open_resource("TCPIP0::192.168.0.253::hislip0::SOCKET")
+scope = rm.open_resource("TCPIP0::192.168.0.253::hislip0::INSTR")
 fxngenRF = rm.open_resource("TCPIP0::192.168.0.254::5025::SOCKET")
-fxngenLO = rm.open_resource("TCPIP0::192.168.0.254::5025::SOCKET")
+fxngenLO = rm.open_resource("TCPIP0::192.168.0.252::5025::SOCKET")
 
 """ Set up the IO configuration"""
 supply.timeout = 10000  # 10s
-meter.timeout = 20000  # 10s
 scope.timeout = 10000  # 10s
 fxngenRF.timeout = 10000  # 10s
 fxngenLO.timeout = 10000  # 10s
@@ -57,8 +56,6 @@ fxngenLO.timeout = 10000  # 10s
 # Define string terminations
 supply.write_termination = "\n"
 supply.read_termination = "\n"
-meter.write_termination = "\n"
-meter.read_termination = "\n"
 scope.write_termination = "\n"
 scope.read_termination = "\n"
 fxngenRF.write_termination = "\n"
@@ -69,17 +66,16 @@ fxngenLO.read_termination = "\n"
 
 # Get ID info
 print("supply ID string:\n  ", supply.query("*IDN?"), flush=True)
-print("meter ID string:\n  ", meter.query("*IDN?"), flush=True)
 print("Connected to oscilloscope:", scope.query("*IDN?"), flush=True)
 print("Connected to function generator 1:", fxngenRF.query("*IDN?"), flush=True)
 print("Connected to function generator 2:", fxngenLO.query("*IDN?"), flush=True)
 
 # write power supply
-supply.write("VOLT 5, (@1)")
-supply.write("CURR 0.005, (@1)")
-print(supply.query("VOLT? (@1)"))
+supply.write("VOLT 5, (@2)")
+supply.write("CURR 0.005, (@2)")
+print(supply.query("VOLT? (@2)"))
 
-supply.write("OUTP 1, (@1)")
+supply.write("OUTP 2, (@2)")
 
 # Set probe scaling to 1:1
 scope.write("CHANnel1:PROBe +1.0")
@@ -126,17 +122,17 @@ fxngenLO.write("UNIT:ANGL DEG")
 
 # Setup waveform generator
 fxngenLO.write("SOUR1:FUNCtion SIN")
-fxngenLO.write("SOUR1:FREQuency +8.0E+06")  # * 8 MHz frequency
-fxngenLO.write("SOUR1:VOLTage:HIGH +0.7")
-fxngenLO.write("SOUR1:VOLTage:LOW -0.7")
+fxngenLO.write("SOUR1:FREQuency +7.904E+06")  # * 8 MHz frequency
+fxngenLO.write("SOUR1:VOLTage:HIGH +1.65")
+fxngenLO.write("SOUR1:VOLTage:LOW -1.65")
 fxngenLO.write("SOUR1:PHASe:SYNC")
 fxngenLO.write("SOUR1:PHASe +0.0")
 fxngenLO.write("OUTPut1 ON")
 
 fxngenLO.write("SOUR2:FUNCtion SIN")
-fxngenLO.write("SOUR2:FREQuency +8.0E+06")  # * 8 MHz frequency
-fxngenLO.write("SOUR2:VOLTage:HIGH +0.7")
-fxngenLO.write("SOUR2:VOLTage:LOW -0.7")
+fxngenLO.write("SOUR2:FREQuency +7.904E+06")  # * 8 MHz frequency
+fxngenLO.write("SOUR2:VOLTage:HIGH +1.65")
+fxngenLO.write("SOUR2:VOLTage:LOW -1.65")
 fxngenLO.write("SOUR2:PHASe:SYNC")
 fxngenLO.write("SOUR2:PHASe +180.0")
 fxngenLO.write("OUTPut2 ON")
@@ -148,5 +144,12 @@ scope.write(":CHAN1:COUP DC")
 scope.write(":CHAN2:COUP DC")
 
 # TODO: add the response plot and output
+
+print("Ready to start testing!")
+user_prompt()
+
+
+
+scope.write(":CHAN1:")
 
 end_program()
