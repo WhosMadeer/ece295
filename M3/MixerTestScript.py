@@ -139,9 +139,11 @@ fxngenLO.write("OUTPut2 ON")
 
 
 # Setup acquisition
-scope.write(":TIMebase:SCAL +5.0E-05")  # 50! us/div
-scope.write(":CHAN1:COUP DC")
-scope.write(":CHAN2:COUP DC")
+scope.write(":TIMebase:SCAL +1.0E-06")  # 10! us/div
+scope.write(":CHAN1:COUP AC")
+scope.write(":CHAN2:COUP AC")
+
+
 
 # TODO: add the response plot and output
 
@@ -151,5 +153,7 @@ user_prompt()
 
 scope.query(":MEAS:VPP? CHAN1")
 scope.query(":MEAS:VPP? CHAN2")
-time.sleep(5)
+scope.query(":MEAS:FREQ? CHAN1")
+scope.query(":MEAS:FREQ? CHAN2")
 end_program()
+exit()
