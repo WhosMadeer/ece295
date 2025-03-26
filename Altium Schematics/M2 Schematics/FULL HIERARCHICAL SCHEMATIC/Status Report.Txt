@@ -1,12 +1,10 @@
-Output: NC Drill Files
-Type  : NC Drill
+Output: AutoCAD dwg/dxf File PCB
+Type  : AutoCAD PCB
 From  : PCB Document [FullPCB.PcbDoc]
-   Generated File[FullPCB.TXT]
-   Generated File[FullPCB.LDP]
-   Generated File[FullPCB.DRR]
+   Generated File[FullPCB.DWG]
 
 
-Files Generated   : 3
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 9:21:53 AM On 3/18/2025
+Finished Output Generation At 7:26:48 PM On 2025-03-25
