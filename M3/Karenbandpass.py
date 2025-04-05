@@ -2,169 +2,153 @@
 """Subsystem A unit testing script.
 This script measures the frequency response of the pre-mixer BPF."""
 
+import matplotlib.pyplot as plt 
+import numpy as np
 import pyvisa
 import time
-from numpy import *
-from matplotlib.pyplot import *
 import sys
 
-__author__ = 'Sean Victor Hum'
-__copyright__ = 'Copyright 2023'
-__license__ = 'GPL'
-__version__ = '1.0'
-__email__ = 'sean.hum@utoronto.ca'
+__author__ = "Mahir Khandaker"
+__copyright__ = "Copyright 2025"
+__license__ = "GPL"
+__version__ = "1.0"
+__email__ = "mahir.khandaker@mail.utoronto.ca"
+
 
 def user_prompt():
-    str = input('Hit Enter to proceed or ! to abort:')
-    if (str == '!'):
-        print('Measurement aborted')
-        user_abort()
+    str = input("Hit Enter to proceed or ! to abort:")
+    if str == "!":
+        print("Measurement aborted")
+        end_program()
 
-def user_abort():
-        scope.write(':WGEN:OUTP OFF')
-        fxngen.write('OUTPut1 OFF')
-        fxngen.write('OUTPut2 OFF')
-        scope.close()
-        fxngen.close()
-        sys.exit(0)
-        print("closed connection")
-        exit()
-        
+
+def end_program():
+    scope.write(":WGEN:OUTP OFF")
+    fxngen.write("OUTPut1 OFF")
+    fxngen.write("OUTPut2 OFF")
+    supply.write("OUTP 0, (@2)")
+    scope.close()
+    fxngen.close()
+    supply.close()
+    print("closed connection")
+    exit()
+
+
 # Open instrument connection(s)
-rm = pyvisa.ResourceManager()
-school_ip = True
-#school_ip = False
-if (school_ip):
-    scope = rm.open_resource('TCPIP0::192.168.0.253::hislip0::INSTR')
-    fxngen = rm.open_resource('TCPIP0::192.168.0.254::5025::SOCKET')
-else:
-    scope = rm.open_resource('TCPIP0::192.168.2.253::hislip0::INSTR')
-    fxngen = rm.open_resource('TCPIP0::192.168.2.254::5025::SOCKET')
+rm = pyvisa.ResourceManager(r"C:\WINDOWS\system32\visa64.dll")
+print(rm)
+print(rm.list_resources("TCPIP0::?*"))
 
-# Define string terminations and timeouts
-scope.write_termination = '\n'
-scope.read_termination = '\n'
-fxngen.write_termination = '\n'
-fxngen.read_termination = '\n'
-scope.timeout = 10000           # 10s
-fxngen.timeout = 10000          # 10s
+"""Connect to the different devices"""
+supply = rm.open_resource("TCPIP0::192.168.0.251::5025::SOCKET")
+scope = rm.open_resource("TCPIP0::192.168.0.253::hislip0::INSTR")
+fxngen = rm.open_resource("TCPIP0::192.168.0.254::5025::SOCKET")
+
+""" Set up the IO configuration"""
+supply.timeout = 10000  # 10s
+scope.timeout = 10000  # 10s
+fxngen.timeout = 10000  # 10s
+
+# Define string terminations
+supply.write_termination = "\n"
+supply.read_termination = "\n"
+scope.write_termination = "\n"
+scope.read_termination = "\n"
+fxngen.write_termination = "\n"
+fxngen.read_termination = "\n"
+
 
 # Get ID info
-scope_id = scope.query('*IDN?').strip().split(',')
-fxngen_id = fxngen.query('*IDN?').strip().split(',')
-print('Connected to oscilloscope:', scope_id[1], flush=True)
-print('Connected to function generator:', fxngen_id[1], flush=True)
+print("supply ID string:\n  ", supply.query("*IDN?"), flush=True)
+print("Connected to oscilloscope:", scope.query("*IDN?"), flush=True)
+print("Connected to function generator:", fxngen.query("*IDN?"), flush=True)
+
+# write power supply
+supply.write("VOLT 5, (@2)")
+supply.write("CURR 0.005, (@2)")
+print(supply.query("VOLT? (@2)"))
+
+supply.write("OUTP 2, (@2)")
 
 # Set probe scaling to 1:1
-scope.write('CHANnel1:PROBe +1.0')
-scope.write('CHANnel2:PROBe +1.0')
+scope.write("CHANnel1:PROBe +1.0")
+scope.write("CHANnel2:PROBe +1.0")
 
-# Setup trigger
-scope.write(':TRIG:SWEep AUTO')
-scope.write(':TRIG:EDGE:SOURce CHAN1')
-scope.write(':TRIG:EDGE:LEVel +0.0')
-
-#print('Trigger:', scope.query(':TRIG?'), flush=True)
-
-print('Connect your subsystem as shown in the wiring diagram and power it on.')
-print('Make sure you have de-asserted the /TXEN line (set it high)!')
+print("Connect the amplifier to the machines to start testing!")
 user_prompt()
 
-# Setup function generator on scope as stimulus
-scope.write(':WGEN:FUNC SIN')
-scope.write(':WGEN:OUTP ON')
 
+"""
+Set up the waveform generator for input
+
+"""
 # Set waveform generator output impedance to high Z
-fxngen.write('OUTPUT1:LOAD INF')
-fxngen.write('OUTPUT2:LOAD INF')
-fxngen.write('UNIT:ANGL DEG')
+fxngen.write("OUTPUT1:LOAD INF")
+fxngen.write("OUTPUT2:LOAD INF")
+fxngen.write("UNIT:ANGL DEG")
 
 # Setup waveform generator
-fxngen.write('SOUR1:FUNCtion SIN')
-fxngen.write('SOUR1:VOLTage:HIGH +3.3')
-fxngen.write('SOUR1:VOLTage:LOW +0.0')
-fxngen.write('SOUR1:PHASe:SYNC')
-fxngen.write('SOUR1:PHASe +0.0')
-fxngen.write('OUTPut1 ON')
+fxngen.write("SOUR1:FUNCtion SIN")
+fxngen.write("SOUR1:FREQuency +1E+05")  # * 100 KHz frequency
+fxngen.write("SOUR1:VOLTage:HIGH +0.7")
+fxngen.write("SOUR1:VOLTage:LOW -0.7")
+fxngen.write("SOUR1:PHASe:SYNC")
+fxngen.write("SOUR1:PHASe +0.0")
+fxngen.write("OUTPut1 ON")
 
-fxngen.write('SOUR2:FUNCtion SIN')
-fxngen.write('SOUR2:VOLTage:HIGH +3.3')
-fxngen.write('SOUR2:VOLTage:LOW +0.0')
-fxngen.write('SOUR2:PHASe:SYNC')
-fxngen.write('SOUR2:PHASe -9.0E+01')
-fxngen.write('OUTPut2 ON')
+fxngen.write("SOUR2:FUNCtion SIN")
+fxngen.write("SOUR1:FREQuency +1E+05")  # * 100 KHz frequency
+fxngen.write("SOUR2:VOLTage:HIGH +0.7")
+fxngen.write("SOUR2:VOLTage:LOW -0.7")
+fxngen.write("SOUR2:PHASe:SYNC")
+fxngen.write("SOUR2:PHASe +90.0")
+fxngen.write("OUTPut2 ON")
 
 # Setup acquisition
-scope.write(':TIMebase:SCAL +5.0E-04') # 500 us/div
-scope.write(':CHAN1:COUP AC')
-scope.write(':CHAN2:COUP AC')
+scope.write(":TIMebase:SCAL +1.0E-06")  # 10! us/div
+scope.write(":CHAN1:COUP AC")
+scope.write(":CHAN2:COUP AC")
 
-# Frequency sweep
-N = 51
-freq = arange(N)/(N-1)*16e6 + 4e6
-offset = 1e3                    # Offset between RF and LO frequencies
-input_ampl = 50e-3              # Amplitude of wave generator output
 
-# Set up instruments for first frequency point
-fxngen.write('SOUR1:FREQuency %e' % (14e6))
-fxngen.write('SOUR2:FREQuency %e' % (14e6))
-scope.write(':WGEN:FREQ %e' % (14e6+offset))
-scope.write(':WGEN:volt %e' % (input_ampl))
+# TODO: add the response plot and output
 
-print('The following frequency points will be measured:', freq)
-
-# Initialize vectors for storing data
-ampl_i = zeros(N, float)
-ampl_q = zeros(N, float)
-#phdiff = zeros(N, float)
-
-print('Adjust the timebase and triggering so the signals are stable.')
-print('Adjust the voltage scale on CH1 and CH2 so they are identical')
-print('and the 2 signals occupy most of the screen.')
+print("Ready to start testing!")
 user_prompt()
 
-# Check the scale is identical on both channels
-scale1 = scope.query(':CHAN1:SCAL?')
-scale2 = scope.query(':CHAN2:SCAL?')
 
-if (scale1 != scale2):
-    print('The scales of the 2 channels do not match.')
-    user_abort()
+scope.query(":MEAS:VPP? CHAN1")
+scope.query(":MEAS:VPP? CHAN2")
+scope.query(":MEAS:FREQ? CHAN1")
+scope.query(":MEAS:FREQ? CHAN2")
 
-# Frequency sweep loop
-scope.write(':TIMebase:SCAL +2.0E-04') 
-for k in range(N):
-    fxngen.write('SOUR1:FREQuency %e' % freq[k])
-    fxngen.write('SOUR2:FREQuency %e' % freq[k])
-    scope.write(':WGEN:FREQ %e' % (freq[k]+offset))
-    time.sleep(0.5)
-    #scope.write(':SINGle')
-    ampl_i[k] = float(scope.query(':MEAS:VPP? CHAN1'))
-    ampl_q[k] = float(scope.query(':MEAS:VPP? CHAN2'))
-    #phdiff[k] = float(scope.query(':MEAS:PHASe? CHAN1'))
-    print('Frequency point %d/%d, f=%.2f MHz: %f %f' % (k+1, N, freq[k]/1e6, ampl_i[k], ampl_q[k]))
+frequencies = np.logspace(np.log10(1e6), np.log10(2e7), num=100)
+I_vpp = []
+Q_vpp = []
 
-print('Done')
+for freq in frequencies:
+    freq_str = f"{freq:.2E}"  # SCPI prefers scientific notation
+    fxngen.write(f"SOUR1:FREQ {freq_str}")
+    fxngen.write(f"SOUR2:FREQ {freq_str}")
+    time.sleep(0.5)  # Allow time for signal to stabilize
+
+    i_vpp = float(scope.query(":MEAS:VPP? CHAN1"))
+    q_vpp = float(scope.query(":MEAS:VPP? CHAN2"))
     
-scope.write(':WGEN:OUTP OFF')
-fxngen.write('OUTPut1 OFF')
-fxngen.write('OUTPut2 OFF')
-fxngen.close()
-scope.close()
-    
-# Save and plot data
-savetxt('bpf.txt', (freq, ampl_i, ampl_q))
+    I_vpp.append(i_vpp)
+    Q_vpp.append(q_vpp)
 
-H2 = (ampl_i/input_ampl)**2 + (ampl_q/input_ampl)**2
-
-fig, ax = subplots()
-ax.plot(freq/1e6, 10*log10(H2))
-ax.set_xlabel('Frequency [MHz]');
-ax.set_ylabel('Subsystem gain [dB]');
-ax.grid(True)
-ax.set_title('Frequency response of BPF')
-savefig('bpf.png')
-
-user_abort()
+# Plot and save the result
+plt.figure()
+plt.semilogx(frequencies, I_vpp, label="I Vpp (CH1)")
+plt.semilogx(frequencies, Q_vpp, label="Q Vpp (CH2)")
+plt.xlabel("Frequency (Hz)")
+plt.ylabel("Vpp (V)")
+plt.title("Frequency Response of Pre-Mixer BPF")
+plt.legend()
+plt.grid(True, which="both", ls="--")
+plt.savefig("bpf_response.png")
+plt.show()
 
 
+end_program()
+exit()
