@@ -2,6 +2,9 @@
 """Subsystem A unit testing script.
 This script measures the frequency response of the pre-mixer BPF."""
 
+
+import matplotlib.pyplot as plt 
+import numpy as np
 import pyvisa
 import time
 import sys
@@ -34,6 +37,13 @@ def end_program():
     print("closed connection")
     exit()
 
+def check_scales():
+    scale1 = scope.query(':CHAN1:SCAL?')
+    scale2 = scope.query(':CHAN2:SCAL?')
+
+    if (scale1 != scale2):
+        print('The scales of the 2 channels do not match.')
+        end_program()
 
 # Open instrument connection(s)
 rm = pyvisa.ResourceManager(r"C:\WINDOWS\system32\visa64.dll")
@@ -149,11 +159,28 @@ scope.write(":CHAN2:COUP AC")
 
 print("Ready to start testing!")
 user_prompt()
-
+check_scales()
 
 scope.query(":MEAS:VPP? CHAN1")
 scope.query(":MEAS:VPP? CHAN2")
 scope.query(":MEAS:FREQ? CHAN1")
 scope.query(":MEAS:FREQ? CHAN2")
+
+phdiff = float(scope.query(':MEAS:PHASe? CHAN1'))
+print('Measured phase shift between I and Q for 10 kHz message signal:', phdiff, 'deg')
+
+if (phdiff > 0):
+    print('WARNING: the phase shift is leading when it should be lagging. Ensure the function')
+    print('generator and oscilloscope are connected as shown in the wiring diagram.')
+else:
+    print('Q is lagging I as expected.')
+print('About to initiate frequency sweep.')
+user_prompt()
+
+
+
+
+
+
 end_program()
 exit()
