@@ -149,6 +149,7 @@ plt.ylabel('Output Voltage')
 plt.title('Input RX_SIG to Output over Limiter')
 plt.legend()
 plt.show()
+plt.savefig('limiter.png')
 
 end_program()
 
