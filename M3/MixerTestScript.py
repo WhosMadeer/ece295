@@ -4,7 +4,7 @@ This script measures the frequency response of the pre-mixer BPF."""
 
 
 import matplotlib.pyplot as plt 
-import numpy as np
+from numpy import *
 import pyvisa
 import time
 import sys
@@ -185,8 +185,22 @@ Q_phase = float(scope.query(':MEAS:PHASe? CHAN2'))
 print("I_phase =", I_phase)
 print("Q_phase =", Q_phase)
 
+N = 61
+fm = logspace(3, 6, N)
 
+# Plot and save the result
+plt.figure()
+plt.plot(fm, I_phase, label="I_phase")
+plt.plot(fm, Q_phase, label="Q_phase")
 
+plt.xlabel("Message frequency [Hz]")
+plt.ylabel("Phase shift between I and Q [deg]")
+plt.title("Frequency Response of IQ Amplifier")
+plt.legend()
+plt.grid(True, which="both", ls="--")
+plt.savefig("amp_response.png")
+plt.savefig('balance_phase.png')
+plt.show()
 
 end_program()
 exit()
