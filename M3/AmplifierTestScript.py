@@ -34,6 +34,14 @@ def end_program():
     print("closed connection")
     exit()
 
+def check_scales():
+    scale1 = scope.query(':CHAN1:SCAL?')
+    scale2 = scope.query(':CHAN2:SCAL?')
+
+    if (scale1 != scale2):
+        print('The scales of the 2 channels do not match.')
+        end_program()
+
 
 # Open instrument connection(s)
 rm = pyvisa.ResourceManager(r"C:\WINDOWS\system32\visa64.dll")
@@ -91,16 +99,16 @@ fxngen.write("UNIT:ANGL DEG")
 # Setup waveform generator
 fxngen.write("SOUR1:FUNCtion SIN")
 fxngen.write("SOUR1:FREQuency +1E+05")  # * 100 KHz frequency
-fxngen.write("SOUR1:VOLTage:HIGH +0.7")
-fxngen.write("SOUR1:VOLTage:LOW -0.7")
+fxngen.write("SOUR1:VOLTage:HIGH +0.5")
+fxngen.write("SOUR1:VOLTage:LOW -0.5")
 fxngen.write("SOUR1:PHASe:SYNC")
 fxngen.write("SOUR1:PHASe +0.0")
 fxngen.write("OUTPut1 ON")
 
 fxngen.write("SOUR2:FUNCtion SIN")
 fxngen.write("SOUR1:FREQuency +1E+05")  # * 100 KHz frequency
-fxngen.write("SOUR2:VOLTage:HIGH +0.7")
-fxngen.write("SOUR2:VOLTage:LOW -0.7")
+fxngen.write("SOUR2:VOLTage:HIGH +0.5")
+fxngen.write("SOUR2:VOLTage:LOW -0.5")
 fxngen.write("SOUR2:PHASe:SYNC")
 fxngen.write("SOUR2:PHASe +90.0")
 fxngen.write("OUTPut2 ON")
@@ -115,7 +123,7 @@ scope.write(":CHAN2:COUP AC")
 
 print("Ready to start testing!")
 user_prompt()
-
+check_scales()
 
 scope.query(":MEAS:VPP? CHAN1")
 scope.query(":MEAS:VPP? CHAN2")
@@ -140,6 +148,13 @@ for freq in frequencies:
     
     I_db.append(i_db)
     Q_db.append(q_db)
+
+# phase
+I_phase = float(scope.query(':MEAS:PHASe? CHAN1'))
+Q_phase = float(scope.query(':MEAS:PHASe? CHAN2'))
+
+print("I_phase =", I_phase)
+print("Q_phase =", Q_phase)
 
 # Plot and save the result
 plt.figure()
