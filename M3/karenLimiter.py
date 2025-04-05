@@ -3,6 +3,7 @@
 This script measures the input output response of the limiter."""
 
 import matplotlib.pyplot as plt 
+import numpy as np
 import pyvisa
 import time
 import sys
@@ -133,8 +134,8 @@ while voltage <= 5000:
     scope.write(f":CHAN1:SCAL {voltage/2}E-03")  # 20! ns/div
     scope.write(f":CHAN2:SCAL {voltage/2}E-03")  # 20! ns/div
     scope.write(f":WGEN:VOLT {voltage}E-03")  # voltage test
-    inputVoltage.append(scope.query(":MEAS:VPP? CHAN2"))
-    outputVoltage.append(scope.query(":MEAS:VPP? CHAN1"))
+    inputVoltage.append(float(scope.query(":MEAS:VPP? CHAN2")))  # Ensure to convert to float
+    outputVoltage.append(float(scope.query(":MEAS:VPP? CHAN1")))  # Ensure to convert to float
     time.sleep(0.5) # in seconds
     voltage += 100
 
@@ -148,8 +149,13 @@ plt.xlabel('Input Voltage (Vpp)')
 plt.ylabel('Output Voltage (Vpp)')
 plt.title('Input RX_SIG to Output over Limiter')
 plt.legend()
-plt.savefig('limiter.png')
 
+# Adjust the spacing between ticks
+plt.xticks(np.arange(0, max(inputVoltage)+1000, 20))  # Modify step size if needed
+plt.yticks(np.arange(0, max(outputVoltage)+1000, 20))  # Modify step size if needed
+plt.ticklabel_format(style='plain', axis='both')  # Disable scientific notation
+
+plt.savefig('limiter.png')
 plt.show()
 
 end_program()
