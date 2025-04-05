@@ -129,14 +129,14 @@ voltage = 100
 inputVoltage = []
 outputVoltage = []
 
-while voltage <= 4000:
+while voltage <= 10000:
     scope.write(f":CHAN1:SCAL {voltage/2}E-03")  # 20! ns/div
     scope.write(f":CHAN2:SCAL {voltage/2}E-03")  # 20! ns/div
     scope.write(f":WGEN:VOLT {voltage}E-03")  # voltage test
-    inputVoltage.append(scope.query(":MEAS:VPP? CHAN1"))
-    outputVoltage.append(scope.query(":MEAS:VPP? CHAN2"))
+    inputVoltage.append(scope.query(":MEAS:VPP? CHAN2"))
+    outputVoltage.append(scope.query(":MEAS:VPP? CHAN1"))
     time.sleep(0.5) # in seconds
-    voltage += 100
+    voltage += 200
 
 
 for index in range(len(inputVoltage)):
@@ -144,9 +144,9 @@ for index in range(len(inputVoltage)):
 
 # Plot the resulting temperatures
 plt.plot(inputVoltage, outputVoltage, label='N/A')
-plt.xlabel('input')
-plt.ylabel('output')
-plt.title('input vs output')
+plt.xlabel('Input Voltage')
+plt.ylabel('Output Voltage')
+plt.title('Input RX_SIG to Output over Limiter')
 plt.legend()
 plt.show()
 
