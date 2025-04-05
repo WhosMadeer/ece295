@@ -4,7 +4,6 @@ This script measures the frequency response of the pre-mixer BPF."""
 
 import matplotlib.pyplot as plt 
 import numpy as np
-import math
 import pyvisa
 import time
 import sys
@@ -123,8 +122,8 @@ scope.query(":MEAS:FREQ? CHAN1")
 scope.query(":MEAS:FREQ? CHAN2")
 
 frequencies = np.logspace(np.log10(1e4), np.log10(1.5e5), num=100)
-I_db = []
-Q_db = []
+I_vpp = []
+Q_vpp = []
 
 for freq in frequencies:
     freq_str = f"{freq:.2E}"  # SCPI prefers scientific notation
@@ -134,19 +133,16 @@ for freq in frequencies:
 
     i_vpp = float(scope.query(":MEAS:VPP? CHAN1"))
     q_vpp = float(scope.query(":MEAS:VPP? CHAN2"))
-
-    i_db = 20 * math.log10(i_vpp)
-    q_db = 20 * math.log10(q_vpp)
     
-    I_db.append(i_db)
-    Q_db.append(q_db)
+    I_vpp.append(i_vpp)
+    Q_vpp.append(q_vpp)
 
 # Plot and save the result
 plt.figure()
-plt.semilogx(frequencies, I_db, label="I dB (CH1)")
-plt.semilogx(frequencies, Q_db, label="Q dB (CH2)")
+plt.semilogx(frequencies, I_vpp, label="I Vpp (CH1)")
+plt.semilogx(frequencies, Q_vpp, label="Q Vpp (CH2)")
 plt.xlabel("Frequency (Hz)")
-plt.ylabel("Gain (dB)")
+plt.ylabel("Vpp (V)")
 plt.title("Frequency Response of IQ Amplifier")
 plt.legend()
 plt.grid(True, which="both", ls="--")
