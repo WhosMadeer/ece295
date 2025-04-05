@@ -166,18 +166,24 @@ scope.query(":MEAS:VPP? CHAN2")
 scope.query(":MEAS:FREQ? CHAN1")
 scope.query(":MEAS:FREQ? CHAN2")
 
-phdiff = float(scope.query(':MEAS:PHASe? CHAN1'))
-print('Measured phase shift between I and Q for 10 kHz message signal:', phdiff, 'deg')
 
-if (phdiff > 0):
-    print('WARNING: the phase shift is leading when it should be lagging. Ensure the function')
-    print('generator and oscilloscope are connected as shown in the wiring diagram.')
-else:
-    print('Q is lagging I as expected.')
-print('About to initiate frequency sweep.')
-user_prompt()
+# sean hum code
+# phdiff = float(scope.query(':MEAS:PHASe? CHAN1'))
+# print('Measured phase shift between I and Q for 10 kHz message signal:', phdiff, 'deg')
 
+# if (phdiff > 0):
+#     print('WARNING: the phase shift is leading when it should be lagging. Ensure the function')
+#     print('generator and oscilloscope are connected as shown in the wiring diagram.')
+# else:
+#     print('Q is lagging I as expected.')
+# print('About to initiate frequency sweep.')
+# user_prompt()
 
+I_phase = float(scope.query(':MEAS:PHASe? CHAN1'))
+Q_phase = float(scope.query(':MEAS:PHASe? CHAN2'))
+
+print("I_phase =", I_phase)
+print("Q_phase =", Q_phase)
 
 
 
