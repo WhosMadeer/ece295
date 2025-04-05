@@ -4,6 +4,7 @@ This script measures the frequency response of the pre-mixer BPF."""
 
 import matplotlib.pyplot as plt 
 import numpy as np
+import math
 import pyvisa
 import time
 import sys
@@ -26,10 +27,10 @@ def end_program():
     scope.write(":WGEN:OUTP OFF")
     fxngen.write("OUTPut1 OFF")
     fxngen.write("OUTPut2 OFF")
-    supply.write("OUTP 0, (@2)")
+    # supply.write("OUTP 0, (@2)")
     scope.close()
     fxngen.close()
-    supply.close()
+    # supply.close()
     print("closed connection")
     exit()
 
@@ -40,18 +41,18 @@ print(rm)
 print(rm.list_resources("TCPIP0::?*"))
 
 """Connect to the different devices"""
-supply = rm.open_resource("TCPIP0::192.168.0.251::5025::SOCKET")
+# supply = rm.open_resource("TCPIP0::192.168.0.251::5025::SOCKET")
 scope = rm.open_resource("TCPIP0::192.168.0.253::hislip0::INSTR")
 fxngen = rm.open_resource("TCPIP0::192.168.0.254::5025::SOCKET")
 
 """ Set up the IO configuration"""
-supply.timeout = 10000  # 10s
+# supply.timeout = 10000  # 10s
 scope.timeout = 10000  # 10s
 fxngen.timeout = 10000  # 10s
 
 # Define string terminations
-supply.write_termination = "\n"
-supply.read_termination = "\n"
+# supply.write_termination = "\n"
+# supply.read_termination = "\n"
 scope.write_termination = "\n"
 scope.read_termination = "\n"
 fxngen.write_termination = "\n"
@@ -59,16 +60,16 @@ fxngen.read_termination = "\n"
 
 
 # Get ID info
-print("supply ID string:\n  ", supply.query("*IDN?"), flush=True)
+# print("supply ID string:\n  ", supply.query("*IDN?"), flush=True)
 print("Connected to oscilloscope:", scope.query("*IDN?"), flush=True)
 print("Connected to function generator:", fxngen.query("*IDN?"), flush=True)
 
-# write power supply
-supply.write("VOLT 5, (@2)")
-supply.write("CURR 0.005, (@2)")
-print(supply.query("VOLT? (@2)"))
+# # write power supply
+# supply.write("VOLT 5, (@2)")
+# supply.write("CURR 0.005, (@2)")
+# print(supply.query("VOLT? (@2)"))
 
-supply.write("OUTP 2, (@2)")
+# supply.write("OUTP 2, (@2)")
 
 # Set probe scaling to 1:1
 scope.write("CHANnel1:PROBe +1.0")
@@ -122,8 +123,7 @@ scope.query(":MEAS:FREQ? CHAN1")
 scope.query(":MEAS:FREQ? CHAN2")
 
 frequencies = np.logspace(np.log10(1e6), np.log10(2e7), num=100)
-I_vpp = []
-Q_vpp = []
+RX_db = []
 
 for freq in frequencies:
     freq_str = f"{freq:.2E}"  # SCPI prefers scientific notation
@@ -131,19 +131,18 @@ for freq in frequencies:
     fxngen.write(f"SOUR2:FREQ {freq_str}")
     time.sleep(0.5)  # Allow time for signal to stabilize
 
-    i_vpp = float(scope.query(":MEAS:VPP? CHAN1"))
-    q_vpp = float(scope.query(":MEAS:VPP? CHAN2"))
+    RX_vpp = float(scope.query(":MEAS:VPP? CHAN1"))
+
+    RX_db = 20 * math.log10(RX_vpp)
     
-    I_vpp.append(i_vpp)
-    Q_vpp.append(q_vpp)
+    RX_db.append(RX_db)
 
 # Plot and save the result
 plt.figure()
-plt.semilogx(frequencies, I_vpp, label="I Vpp (CH1)")
-plt.semilogx(frequencies, Q_vpp, label="Q Vpp (CH2)")
+plt.semilogx(frequencies, RX_db, label="RX dB (CH1)")
 plt.xlabel("Frequency (Hz)")
-plt.ylabel("Vpp (V)")
-plt.title("Frequency Response of Pre-Mixer BPF")
+plt.ylabel("RX Gain (dB)")
+plt.title("Frequency Response of IQ Amplifier")
 plt.legend()
 plt.grid(True, which="both", ls="--")
 plt.savefig("bpf_response.png")
