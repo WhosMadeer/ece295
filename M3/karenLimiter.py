@@ -144,6 +144,7 @@ for index in range(len(inputVoltage)):
     print(f"{inputVoltage[index]} : {outputVoltage[index]}")
 
 # Plot the resulting temperatures
+plt.figure()
 plt.plot(inputVoltage, outputVoltage, label='N/A')
 plt.xlabel('Input Voltage (Vpp)')
 plt.ylabel('Output Voltage (Vpp)')
@@ -151,8 +152,8 @@ plt.title('Input RX_SIG to Output over Limiter')
 plt.legend()
 
 # Adjust the spacing between ticks
-plt.xticks(np.arange(0, max(inputVoltage)+1000, 20))  # Modify step size if needed
-plt.yticks(np.arange(0, max(outputVoltage)+1000, 20))  # Modify step size if needed
+plt.xticks(np.arange(0, max(inputVoltage)+1000, 10))  # Modify step size if needed
+plt.yticks(np.arange(0, max(outputVoltage)+1000, 10))  # Modify step size if needed
 plt.ticklabel_format(style='plain', axis='both')  # Disable scientific notation
 
 plt.savefig('limiter.png')

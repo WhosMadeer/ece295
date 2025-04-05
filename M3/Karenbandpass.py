@@ -91,16 +91,16 @@ fxngen.write("UNIT:ANGL DEG")
 # Setup waveform generator
 fxngen.write("SOUR1:FUNCtion SIN")
 fxngen.write("SOUR1:FREQuency +1E+05")  # * 100 KHz frequency
-fxngen.write("SOUR1:VOLTage:HIGH +0.7")
-fxngen.write("SOUR1:VOLTage:LOW -0.7")
+fxngen.write("SOUR1:VOLTage:HIGH +0.5")
+fxngen.write("SOUR1:VOLTage:LOW -0.5")
 fxngen.write("SOUR1:PHASe:SYNC")
 fxngen.write("SOUR1:PHASe +0.0")
 fxngen.write("OUTPut1 ON")
 
 fxngen.write("SOUR2:FUNCtion SIN")
 fxngen.write("SOUR1:FREQuency +1E+05")  # * 100 KHz frequency
-fxngen.write("SOUR2:VOLTage:HIGH +0.7")
-fxngen.write("SOUR2:VOLTage:LOW -0.7")
+fxngen.write("SOUR2:VOLTage:HIGH +0.5")
+fxngen.write("SOUR2:VOLTage:LOW -0.5")
 fxngen.write("SOUR2:PHASe:SYNC")
 fxngen.write("SOUR2:PHASe +90.0")
 fxngen.write("OUTPut2 ON")
@@ -128,21 +128,20 @@ RX_db = []
 for freq in frequencies:
     freq_str = f"{freq:.2E}"  # SCPI prefers scientific notation
     fxngen.write(f"SOUR1:FREQ {freq_str}")
-    fxngen.write(f"SOUR2:FREQ {freq_str}")
     time.sleep(0.5)  # Allow time for signal to stabilize
 
     RX_vpp = float(scope.query(":MEAS:VPP? CHAN1"))
 
-    RX_db = 20 * math.log10(RX_vpp)
+    db = 20 * math.log10(RX_vpp)
     
-    RX_db.append(RX_db)
+    RX_db.append(db)
 
 # Plot and save the result
 plt.figure()
 plt.semilogx(frequencies, RX_db, label="RX dB (CH1)")
 plt.xlabel("Frequency (Hz)")
 plt.ylabel("RX Gain (dB)")
-plt.title("Frequency Response of IQ Amplifier")
+plt.title("Frequency Response of Bandpass")
 plt.legend()
 plt.grid(True, which="both", ls="--")
 plt.savefig("bpf_response.png")
