@@ -97,8 +97,8 @@ fxngen.write("OUTPut2 ON")
 
 # Setup acquisition
 scope.write(":TIMebase:SCAL +20.0E-09")  # 20! ns/div
-scope.write(":CHAN1:SCAL +2")  # 20! ns/div
-scope.write(":CHAN1:SCAL +2")  # 20! ns/div
+scope.write(":CHAN1:SCAL +50E-03")  # 20! ns/div
+scope.write(":CHAN2:SCAL +50E-03")  # 20! ns/div
 
 scope.write(":CHAN1:COUP AC")
 scope.write(":CHAN2:COUP AC")
@@ -125,18 +125,21 @@ scope.query(":MEAS:FREQ? CHAN2")
 
 
 voltage = 100
-InputOutputVoltage = []
+inputVoltage = []
+outputVoltage = []
 
-while voltage <= 2000:
+while voltage <= 4000:
+    scope.write(f":CHAN1:SCAL {voltage/2}E-03")  # 20! ns/div
+    scope.write(f":CHAN2:SCAL {voltage/2}E-03")  # 20! ns/div
     scope.write(f":WGEN:VOLT {voltage}E-03")  # voltage test
-    InputOutputVoltage.append({"input": scope.query(":MEAS:VPP? CHAN1")
-, "output": scope.query(":MEAS:VPP? CHAN2")})
+    inputVoltage.append(scope.query(":MEAS:VPP? CHAN1"))
+    outputVoltage.append(scope.query(":MEAS:VPP? CHAN2"))
     time.sleep(0.5) # in seconds
     voltage += 100
 
 
-for entry in InputOutputVoltage:
-    print(f"{entry['input']} : {entry['output']}")
+for index in range(len(inputVoltage)):
+    print(f"{inputVoltage[index]} : {outputVoltage[index]}")
 
 
 end_program()
