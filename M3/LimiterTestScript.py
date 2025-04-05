@@ -97,6 +97,9 @@ fxngen.write("OUTPut2 ON")
 
 # Setup acquisition
 scope.write(":TIMebase:SCAL +20.0E-09")  # 20! ns/div
+scope.write(":CHAN1:SCAL +2")  # 20! ns/div
+scope.write(":CHAN1:SCAL +2")  # 20! ns/div
+
 scope.write(":CHAN1:COUP AC")
 scope.write(":CHAN2:COUP AC")
 
@@ -104,7 +107,7 @@ scope.write(":CHAN2:COUP AC")
 # Setup function generator on scope as stimulus
 scope.write(":WGEN:FUNC SIN")
 scope.write(":WGEN:FREQ 1.401E+07")  # 10 kHz test
-scope.write(":WGEN:VPP 50E-03")  # 50mVpp test
+scope.write(":WGEN:VOLT 50E-03")  # 50mVpp test
 
 scope.write(":WGEN:OUTP ON")
 
@@ -125,13 +128,17 @@ voltage = 100
 InputOutputVoltage = []
 
 while voltage <= 2000:
-    outputVoltage = scope.write(f":WGEN:VPP {voltage}E-03")  # voltage test
-    InputOutputVoltage.append({"input": voltage, "output": outputVoltage})
+    scope.write(f":WGEN:VOLT {voltage}E-03")  # voltage test
+    InputOutputVoltage.append({"input": scope.query(":MEAS:VPP? CHAN1")
+, "output": scope.query(":MEAS:VPP? CHAN2")})
+    time.sleep(0.5) # in seconds
     voltage += 100
 
-end_program()
 
 for entry in InputOutputVoltage:
     print(f"{entry['input']} : {entry['output']}")
+
+
+end_program()
 
 exit()
