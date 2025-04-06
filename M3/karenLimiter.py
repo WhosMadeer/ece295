@@ -152,8 +152,8 @@ plt.title('Input RX_SIG to Output over Limiter')
 plt.legend()
 
 # Adjust the spacing between ticks
-plt.xticks(np.arange(0, max(inputVoltage), 50), rotation='vertical')  # Modify step size if needed
-plt.yticks(np.arange(0, max(outputVoltage)+50, 50), rotation='vertical')  # Modify step size if needed
+plt.xticks(np.arange(0, max(inputVoltage) + 0.3, 0.1), rotation='vertical')  # Modify step size if needed
+plt.yticks(np.arange(0, max(outputVoltage) + 0.3, 0.1))  # Modify step size if needed
 plt.ticklabel_format(style='plain', axis='both')  # Disable scientific notation
 
 plt.savefig('limiter.png')
