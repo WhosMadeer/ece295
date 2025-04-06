@@ -2,7 +2,7 @@
 """Subsystem A unit testing script.
 This script measures the frequency response of the pre-mixer BPF."""
 
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
 import numpy as np
 import math
 import pyvisa
@@ -34,12 +34,13 @@ def end_program():
     print("closed connection")
     exit()
 
-def check_scales():
-    scale1 = scope.query(':CHAN1:SCAL?')
-    scale2 = scope.query(':CHAN2:SCAL?')
 
-    if (scale1 != scale2):
-        print('The scales of the 2 channels do not match.')
+def check_scales():
+    scale1 = scope.query(":CHAN1:SCAL?")
+    scale2 = scope.query(":CHAN2:SCAL?")
+
+    if scale1 != scale2:
+        print("The scales of the 2 channels do not match.")
         end_program()
 
 
@@ -99,16 +100,16 @@ fxngen.write("UNIT:ANGL DEG")
 # Setup waveform generator
 fxngen.write("SOUR1:FUNCtion SIN")
 fxngen.write("SOUR1:FREQuency +1E+05")  # * 100 KHz frequency
-fxngen.write("SOUR1:VOLTage:HIGH +0.5")
-fxngen.write("SOUR1:VOLTage:LOW -0.5")
+fxngen.write("SOUR1:VOLTage:HIGH +1.0")
+fxngen.write("SOUR1:VOLTage:LOW -1.0")
 fxngen.write("SOUR1:PHASe:SYNC")
 fxngen.write("SOUR1:PHASe +0.0")
 fxngen.write("OUTPut1 ON")
 
 fxngen.write("SOUR2:FUNCtion SIN")
 fxngen.write("SOUR1:FREQuency +1E+05")  # * 100 KHz frequency
-fxngen.write("SOUR2:VOLTage:HIGH +0.5")
-fxngen.write("SOUR2:VOLTage:LOW -0.5")
+fxngen.write("SOUR2:VOLTage:HIGH +1.0")
+fxngen.write("SOUR2:VOLTage:LOW -1.0")
 fxngen.write("SOUR2:PHASe:SYNC")
 fxngen.write("SOUR2:PHASe +90.0")
 fxngen.write("OUTPut2 ON")
@@ -145,13 +146,13 @@ for freq in frequencies:
 
     i_db = 20 * math.log10(i_vpp)
     q_db = 20 * math.log10(q_vpp)
-    
+
     I_db.append(i_db)
     Q_db.append(q_db)
 
 # phase
-I_phase = float(scope.query(':MEAS:PHASe? CHAN1'))
-Q_phase = float(scope.query(':MEAS:PHASe? CHAN2'))
+I_phase = float(scope.query(":MEAS:PHASe? CHAN1"))
+Q_phase = float(scope.query(":MEAS:PHASe? CHAN2"))
 
 print("I_phase =", I_phase)
 print("Q_phase =", Q_phase)
