@@ -139,13 +139,13 @@ for freq in frequencies:
     freq_str = f"{freq:.2E}"  # SCPI prefers scientific notation
     fxngen.write(f"SOUR1:FREQ {freq_str}")
     fxngen.write(f"SOUR2:FREQ {freq_str}")
-    time.sleep(0.5)  # Allow time for signal to stabilize
+    time.sleep(1)  # Allow time for signal to stabilize
 
     i_vpp = float(scope.query(":MEAS:VPP? CHAN1"))
     q_vpp = float(scope.query(":MEAS:VPP? CHAN2"))
 
-    i_db = 20 * math.log10(i_vpp)
-    q_db = 20 * math.log10(q_vpp)
+    i_db = 40 * math.log10(i_vpp)
+    q_db = 40 * math.log10(q_vpp)
 
     I_db.append(i_db)
     Q_db.append(q_db)
@@ -166,7 +166,7 @@ plt.ylabel("Gain (dB)")
 plt.title("Frequency Response of IQ Amplifier")
 
 # Add a tick at 96 kHz
-# plt.xticks(np.append(plt.gca().get_xticks(), 96e3))  # Add 96 kHz to the existing ticks
+plt.xticks(np.append(plt.gca().get_xticks(), 96e3))  # Add 96 kHz to the existing ticks
 
 plt.legend()
 plt.grid(True, which="both", ls="--")
