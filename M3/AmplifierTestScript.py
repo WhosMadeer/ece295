@@ -163,6 +163,10 @@ plt.semilogx(frequencies, Q_db, label="Q dB (CH2)")
 plt.xlabel("Frequency (Hz)")
 plt.ylabel("Gain (dB)")
 plt.title("Frequency Response of IQ Amplifier")
+
+# Add a tick at 96 kHz
+# plt.xticks(np.append(plt.gca().get_xticks(), 96e3))  # Add 96 kHz to the existing ticks
+
 plt.legend()
 plt.grid(True, which="both", ls="--")
 plt.savefig("amp_response.png")
